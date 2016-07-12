@@ -43,10 +43,19 @@ public class UserController : MonoBehaviour {
 
 	}
 
-	//Deletes previous log of time, movement, and rotation if the space button is pressed 
+	//If the space button is pressed, previous log of time, movement, and rotation is deleted. 
 	void ClearCSV () { 
 		if (Input.GetKeyDown(KeyCode.Space))  
 			System.IO.File.WriteAllText ("CSVData.csv", string.Empty);
 	}
+
+	void OnTriggerEnter(Collider other)  {
+		if (other.gameObject.CompareTag ("CollideObject")) {
+			other.gameObject.SetActive (false); 
+			System.IO.File.AppendAllText ("Events.csv", "Collided with object"); 
+		}
+	}
+
+		
 		
 }
