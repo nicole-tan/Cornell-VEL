@@ -7,6 +7,7 @@ public class UserController : MonoBehaviour {
 
 	private Rigidbody rb; 
 	private float speed = 10;
+	public int inputNumber; 
 
 	/***** CONSTANTS *****/
 	public Vector3 origin { get { return new Vector3(0, 0.5f, 0); } } 
@@ -19,6 +20,7 @@ public class UserController : MonoBehaviour {
 
 	void Update () {
 		ClearCSV (); 
+		//var controller = SteamVR_Controller.Input (inputNumber); 
 	}
 
 	//Called just before performing any Physics operations [will move by applying forces to Rigidbody]
