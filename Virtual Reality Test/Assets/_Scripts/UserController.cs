@@ -29,7 +29,8 @@ public class UserController : MonoBehaviour {
 		
 	void SaveCSV () {
 		StringBuilder csvcontent = new StringBuilder ();
-		csvcontent.AppendLine (System.DateTime.Now.ToString()); 
+		Vector3 currPos = new Vector3 (transform.position.x, transform.position.y, transform.position.z); 
+		csvcontent.AppendLine (System.DateTime.Now.ToString() + "    " + currPos.ToString()); 
 		System.IO.File.AppendAllText ("CSVData.csv", csvcontent.ToString());
 
 	}
