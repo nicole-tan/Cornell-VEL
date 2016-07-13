@@ -4,7 +4,8 @@ using System.Text;
 using System.IO;
 
 public class RightController : MonoBehaviour {
-
+	
+	//Called once every frame 
 	void Update () {
 		ClearCSV (); 
 	} 
@@ -14,11 +15,15 @@ public class RightController : MonoBehaviour {
 		SaveCSV();
 	}
 
+	//Creates a new CSV file [if it does not already exist] and saves the date, time, and current position 
+	//of the right controller on a new line in the file 
 	void SaveCSV () {
 		StringBuilder csvcontent = new StringBuilder ();
 		Vector3 currPos = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
-		Quaternion currRot = new Quaternion (transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w); 
-		csvcontent.AppendLine (System.DateTime.Now.ToString() + ",  Position: " + currPos.ToString() + ",  Rotation: " + currRot.ToString()); 
+		Quaternion currRot = new Quaternion (transform.rotation.x, transform.rotation.y, transform.rotation.z, 
+			transform.rotation.w); 
+		csvcontent.AppendLine (System.DateTime.Now.ToString() + ",  Position: " + 
+			currPos.ToString() + ",  Rotation: " + currRot.ToString()); 
 		System.IO.File.AppendAllText ("RightController.csv", csvcontent.ToString());
 
 	}
@@ -29,8 +34,9 @@ public class RightController : MonoBehaviour {
 			System.IO.File.WriteAllText ("RightController.csv", string.Empty);
 	}
 
-	//When the user quits the application, add a series of asterisks to denote the delineation between run-throughs of the game.
+	//When the user quits the application, add a series of asterisks and new lines to denote the delineation 
+	//between run-throughs of the game.
 	void OnApplicationQuit () {
-		System.IO.File.AppendAllText ("RightController.csv", "*****************************************************************");
+		System.IO.File.AppendAllText ("RightController.csv", "***************************************************************** \n \n \n");
 	}
 }
