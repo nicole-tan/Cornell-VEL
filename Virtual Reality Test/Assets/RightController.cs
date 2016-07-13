@@ -23,9 +23,14 @@ public class RightController : MonoBehaviour {
 
 	}
 
-	//If the space button is pressed, previous log of time, movement, and rotation is deleted. 
+	//If the r key is pressed, the previous log of time, movement, and rotation is deleted. 
 	void ClearCSV () { 
-		if (Input.GetKeyDown(KeyCode.Space))  
+		if (Input.GetKeyDown(KeyCode.R))  
 			System.IO.File.WriteAllText ("RightController.csv", string.Empty);
+	}
+
+	//When the user quits the application, add a series of asterisks to denote the delineation between run-throughs of the game.
+	void OnApplicationQuit () {
+		System.IO.File.AppendAllText ("RightController.csv", "*****************************************************************");
 	}
 }
