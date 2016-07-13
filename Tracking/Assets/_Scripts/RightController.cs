@@ -9,12 +9,14 @@ public class RightController : MonoBehaviour {
 
 	//Called once every frame 
 	void Update () {
+
 		ClearCSV (); 
 	} 
 
 	// Called for every physics step (a fixed interval between calls)
 	void FixedUpdate () {
-		WriteToCSV (); 
+		WriteToCSV ();
+		 
 	}
 
 	//Creates a new CSV file [if it does not already exist] and saves the date, time, and current position 
