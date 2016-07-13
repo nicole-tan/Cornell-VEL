@@ -3,19 +3,19 @@ using System.Collections;
 using System.Text;
 using System.IO;
 
-
 public class LeftController : MonoBehaviour {
 
-	bool isRecording = true;
+	bool isRecording = true; 
 
 	//Called once every frame 
 	void Update () {
 		ClearCSV ();
-		WriteToCSV ();
+		WriteToCSV (); 
 	} 
-	
+
 	// Called for every physics step (a fixed interval between calls)
-	void FixedUpdate () { 
+	void FixedUpdate () {
+
 	}
 
 	//Creates a new CSV file [if it does not already exist] and saves the date, time, and current position 
