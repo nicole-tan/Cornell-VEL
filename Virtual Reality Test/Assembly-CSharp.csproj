@@ -77,6 +77,8 @@
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+     <Compile Include="Assets\_Scripts\HeadController.cs" />
+     <Compile Include="Assets\_Scripts\LeftController.cs" />
      <Compile Include="Assets\_Scripts\TestScript.cs" />
      <Compile Include="Assets\_Scripts\UserController.cs" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />

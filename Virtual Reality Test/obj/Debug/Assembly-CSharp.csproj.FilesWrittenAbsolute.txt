@@ -1,3 +1,7 @@
+/Users/newmac/Documents/vel/Virtual Reality Test/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/newmac/Documents/vel/Virtual Reality Test/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/newmac/Documents/vel/Virtual Reality Test/obj/Debug/Assembly-CSharp.dll
+/Users/newmac/Documents/vel/Virtual Reality Test/obj/Debug/Assembly-CSharp.dll.mdb
 /Users/newmac/Documents/vel/Virtual Reality Test/Temp/bin/Debug/UnityEngine.dll
 /Users/newmac/Documents/vel/Virtual Reality Test/Temp/bin/Debug/UnityEditor.dll
 /Users/newmac/Documents/vel/Virtual Reality Test/Temp/bin/Debug/UnityEngine.Networking.dll
@@ -13,7 +17,3 @@
 /Users/newmac/Documents/vel/Virtual Reality Test/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/newmac/Documents/vel/Virtual Reality Test/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/newmac/Documents/vel/Virtual Reality Test/Temp/bin/Debug/Mono.Cecil.Mdb.dll
-/Users/newmac/Documents/vel/Virtual Reality Test/Temp/bin/Debug/Assembly-CSharp.dll.mdb
-/Users/newmac/Documents/vel/Virtual Reality Test/Temp/bin/Debug/Assembly-CSharp.dll
-/Users/newmac/Documents/vel/Virtual Reality Test/obj/Debug/Assembly-CSharp.dll
-/Users/newmac/Documents/vel/Virtual Reality Test/obj/Debug/Assembly-CSharp.dll.mdb
