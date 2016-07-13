@@ -6,8 +6,6 @@
 -r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
--r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
--r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
 -define:UNITY_5_3_OR_NEWER
 -define:UNITY_5_3_5
@@ -80,7 +78,6 @@
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_64
 -define:UNITY_EDITOR_OSX
-'Assets/LeftController.cs'
 'Assets/SteamVR/Extras/SteamVR_GazeTracker.cs'
 'Assets/SteamVR/Extras/SteamVR_LaserPointer.cs'
 'Assets/SteamVR/Extras/SteamVR_Teleporter.cs'
@@ -114,6 +111,8 @@
 'Assets/SteamVR/Scripts/SteamVR_UpdatePoses.cs'
 'Assets/SteamVR/Scripts/SteamVR_Utils.cs'
 'Assets/_Scripts/HeadController.cs'
+'Assets/_Scripts/LeftController.cs'
+'Assets/_Scripts/RightController.cs'
 'Assets/_Scripts/TestScript.cs'
 'Assets/_Scripts/UserController.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'

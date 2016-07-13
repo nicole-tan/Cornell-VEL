@@ -4,7 +4,9 @@ using System.Text;
 using System.IO;
 
 public class RightController : MonoBehaviour {
-	
+
+	bool isRecording = true; 
+
 	//Called once every frame 
 	void Update () {
 		ClearCSV (); 
@@ -12,7 +14,7 @@ public class RightController : MonoBehaviour {
 
 	// Called for every physics step (a fixed interval between calls)
 	void FixedUpdate () {
-		SaveCSV();
+		WriteToCSV (); 
 	}
 
 	//Creates a new CSV file [if it does not already exist] and saves the date, time, and current position 
@@ -38,5 +40,24 @@ public class RightController : MonoBehaviour {
 	//between run-throughs of the game.
 	void OnApplicationQuit () {
 		System.IO.File.AppendAllText ("RightController.csv", "***************************************************************** \n \n \n");
+	}
+
+	//Writes to CSV file initally. Once space button is pressed, set isRecording to the opposite bool. If it is true, save data to
+	//the CSV file. If not, stop saving to the CSV. 
+	void WriteToCSV () {
+		if (Input.GetKeyDown (KeyCode.Space)) {
+			isRecording = !isRecording; 
+			CheckRecording (); 
+		} 
+		else {
+			CheckRecording ();
+		}
+	}
+
+	//Saves to CSV file if isRecording is true. Does nothing if isRecording is false. 
+	void CheckRecording() {
+		if (isRecording == true) {
+			SaveCSV ();
+		} 
 	}
 }
