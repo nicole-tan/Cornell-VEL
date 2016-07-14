@@ -71,7 +71,7 @@ public class Controller : MonoBehaviour {
 	}
 
 	//Saves to CSV file if isRecording is true. Does nothing if isRecording is false. 
-	void CheckRecording() {
+	public void CheckRecording() {
 		if (isRecording == true) {
 			SaveCSV ();
 		} 
