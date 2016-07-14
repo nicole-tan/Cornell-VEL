@@ -8,6 +8,7 @@ public class Controller : MonoBehaviour {
 	protected string identifier; 
 	protected string delimeter = ",";
 	public bool isRecording = true; 
+	public string userName = "userName"; 
 
 	private string startTime; 
 
@@ -28,17 +29,17 @@ public class Controller : MonoBehaviour {
 
 		if (identifier == "head") {
 			csvcontent.AppendLine (csvdata); 
-			System.IO.File.AppendAllText (startTime + ".csv", csvcontent.ToString());
+			System.IO.File.AppendAllText (startTime + "_" + userName + ".csv", csvcontent.ToString());
 		} 
 
 		else if (identifier == "right") {
 			csvcontent.AppendLine (csvdata); 
-			System.IO.File.AppendAllText (startTime + ".csv", csvcontent.ToString());	
+			System.IO.File.AppendAllText (startTime + "_" + userName + ".csv", csvcontent.ToString());
 		}
 
 		else {
 			csvcontent.AppendLine (csvdata); 
-			System.IO.File.AppendAllText (startTime + ".csv", csvcontent.ToString());	
+			System.IO.File.AppendAllText (startTime + "_" + userName + ".csv", csvcontent.ToString());	
 		
 		}
 
