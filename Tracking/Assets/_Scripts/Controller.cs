@@ -44,7 +44,7 @@ public class Controller : DialogueBox {
 			System.IO.File.AppendAllText (startTime + "_" + userName + ".csv", csvcontent.ToString());
 		}
 
-		else {
+		else if (identifier == "left") {
 			csvcontent.AppendLine (csvdata); 
 			System.IO.File.AppendAllText (startTime + "_" + userName + ".csv", csvcontent.ToString());	
 		
