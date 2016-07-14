@@ -4,7 +4,7 @@ using UnityEditor;
 
 public class DialogueBox : MonoBehaviour {
 
-	private string userName = "userName";
+	public string userName = "";
 	string savedFileName;
 
 	void Start() {
@@ -12,8 +12,14 @@ public class DialogueBox : MonoBehaviour {
 
 	}
 
-	void OnGUI () {
-		userName = GUI.TextField (new Rect (500, 25, 100, 30), userName, 25); 
+	public string OnGUI () {
+		userName = GUI.TextField (new Rect (500, 25, 100, 30), userName, 25);
+		if (GUI.Button (new Rect (300, 250, 100, 30), "Submit")) {
+			return userName;
+		} 
+		else {
+			return "default name";
+		}
 	}
 
 

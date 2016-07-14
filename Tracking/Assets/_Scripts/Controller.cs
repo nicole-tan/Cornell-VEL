@@ -4,13 +4,12 @@ using System.Text;
 using System.IO;
 using UnityEngine.UI;
 
-public class Controller : MonoBehaviour {
+public class Controller : DialogueBox {
 
 	protected string identifier; 
 	protected string delimeter = ",";
 	public bool isRecording = true; 
 	public bool isEvent = false;
-	public string userName; 
 
 	private string startTime; 
 
@@ -105,7 +104,7 @@ public class Controller : MonoBehaviour {
 			delimeter + identifier;
 		
 		csvcontent.AppendLine (csvdata); 
-		System.IO.File.AppendAllText ("Events.csv", csvcontent.ToString());
+		System.IO.File.AppendAllText ("Events.csv", "E has been pressed!" + csvcontent.ToString());
 		
 	}
 		
