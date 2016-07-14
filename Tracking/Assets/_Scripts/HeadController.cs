@@ -12,8 +12,11 @@ public class HeadController : Controller {
 	//Called once every frame 
 	void Update () {
 		ClearCSV ();
-		WriteToCSV ();
 	} 
+
+	void FixedUpdate () {
+		WriteToCSV ();
+	}
 
 		
 

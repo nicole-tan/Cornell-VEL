@@ -9,15 +9,6 @@ public class Controller : MonoBehaviour {
 	protected string delimeter = ",";
 	public bool isRecording = true; 
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
 	//Creates a new CSV file [if it does not already exist] and saves the date, time, and current position 
 	//of the controller with the given name on a new line in the file 
