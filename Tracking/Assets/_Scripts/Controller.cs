@@ -19,6 +19,8 @@ public class Controller : MonoBehaviour {
 		startTime = startTime.Replace("/", "");
 		//strip whitespaces from all areas
 		startTime = startTime.Replace(" ", "");
+		//replace colon with underscore
+		startTime = startTime.Replace(":", "_");
 	}
 
 	//Creates a new CSV file [if it does not already exist] and saves the date, time, and current position 
