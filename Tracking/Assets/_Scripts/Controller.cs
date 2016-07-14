@@ -5,8 +5,9 @@ using System.IO;
 
 public class Controller : MonoBehaviour {
 
-	public string identifier; 
-	public string delimeter = ",";
+	protected string identifier; 
+	protected string delimeter = ",";
+	public bool isRecording = true; 
 
 	// Use this for initialization
 	void Start () {
@@ -51,6 +52,25 @@ public class Controller : MonoBehaviour {
 	//between run-throughs of the game.
 	void OnApplicationQuit () {
 		System.IO.File.AppendAllText ("ConsolidatedData.csv", "***************************************************************** \n \n \n");
+	}
+
+	//Writes to CSV file initally. Once space button is pressed, set isRecording to the opposite bool. If it is true, save data to
+	//the CSV file. If not, stop saving to the CSV. 
+	public void WriteToCSV () {
+		if (Input.GetKeyDown (KeyCode.Space)) {
+			isRecording = !isRecording; 
+			CheckRecording (); 
+		} 
+		else {
+			CheckRecording ();
+		}
+	}
+
+	//Saves to CSV file if isRecording is true. Does nothing if isRecording is false. 
+	void CheckRecording() {
+		if (isRecording == true) {
+			SaveCSV ();
+		} 
 	}
 		
 }
