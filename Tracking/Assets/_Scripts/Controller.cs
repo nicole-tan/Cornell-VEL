@@ -9,6 +9,7 @@ public class Controller : MonoBehaviour {
 	protected string identifier; 
 	protected string delimeter = ",";
 	public bool isRecording = true; 
+	public bool isEvent = false;
 	public string userName; 
 
 	private string startTime; 
@@ -70,11 +71,42 @@ public class Controller : MonoBehaviour {
 		}
 	}
 
-	//Saves to CSV file if isRecording is true. Does nothing if isRecording is false. 
+
 	public void CheckRecording() {
 		if (isRecording == true) {
 			SaveCSV ();
 		} 
+	}
+
+	public void EventPress () {
+		if (Input.GetKeyDown (KeyCode.E)) {
+			isEvent = !isEvent; 
+			CheckEvent (); 
+		} 
+		else {
+			CheckEvent ();
+		}
+		
+	}
+
+	public void CheckEvent() {
+		if (isEvent == true) {
+			SaveEvent ();
+		}
+	}
+
+	public void SaveEvent () {
+		StringBuilder csvcontent = new StringBuilder ();
+		Vector3 currPos = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
+		Vector3 currRot = new Vector3 (transform.eulerAngles.x, transform.eulerAngles.y, transform.eulerAngles.z);
+
+		string csvdata = System.DateTime.Now.ToString () + delimeter + currPos [0] + delimeter + currPos [1] +
+			delimeter + currPos [2] + delimeter + currRot [0] + delimeter + currRot [1] + delimeter + currRot [2] +
+			delimeter + identifier;
+		
+		csvcontent.AppendLine (csvdata); 
+		System.IO.File.AppendAllText ("Events.csv", csvcontent.ToString());
+		
 	}
 		
 }
