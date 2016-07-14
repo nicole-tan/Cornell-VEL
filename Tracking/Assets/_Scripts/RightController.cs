@@ -16,25 +16,7 @@ public class RightController : Controller {
 		ClearCSV ();
 		WriteToCSV (); 
 	} 
-
-	// Called for every physics step (a fixed interval between calls)
-	void FixedUpdate () {
-		 
-	}
-
-//	//Creates a new CSV file [if it does not already exist] and saves the date, time, and current position 
-//	//of the right controller on a new line in the file 
-//	void SaveCSV () {
-//		StringBuilder csvcontent = new StringBuilder ();
-//		Vector3 currPos = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
-//		//CHANGED from yesterday!
-//		//Is this pitch, yaw, roll in that order?
-//		Vector3 currRot = new Vector3 (transform.eulerAngles.x, transform.eulerAngles.y, transform.eulerAngles.z);
-//		csvcontent.AppendLine (System.DateTime.Now.ToString() + ",  Position: " + 
-//			currPos.ToString() + ",  Rotation: " + currRot.ToString()); 
-//		System.IO.File.AppendAllText ("RightController.csv", csvcontent.ToString());
-//
-//	}
+		
 
 	//If the r key is pressed, the previous log of time, movement, and rotation is deleted. 
 	void ClearCSV () { 
@@ -42,11 +24,11 @@ public class RightController : Controller {
 			System.IO.File.WriteAllText ("RightController.csv", string.Empty);
 	}
 
-	//When the user quits the application, add a series of asterisks and new lines to denote the delineation 
-	//between run-throughs of the game.
-	void OnApplicationQuit () {
-		System.IO.File.AppendAllText ("RightController.csv", "***************************************************************** \n \n \n");
-	}
+//	//When the user quits the application, add a series of asterisks and new lines to denote the delineation 
+//	//between run-throughs of the game.
+//	void OnApplicationQuit () {
+//		System.IO.File.AppendAllText ("RightController.csv", "***************************************************************** \n \n \n");
+//	}
 
 	//Writes to CSV file initally. Once space button is pressed, set isRecording to the opposite bool. If it is true, save data to
 	//the CSV file. If not, stop saving to the CSV. 
