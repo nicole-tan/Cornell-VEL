@@ -36,11 +36,14 @@ If only one controller is being used, the RightController.csv file will contain 
 
 ###To Be Implemented
 * Have a keypress that signals when recording should start or stop.
+* Create a dialogue box that allows you to choose the user and will allow you to either create a new file or use an existing one
 * Have an absolute coordinate system [the origin would be indicated by a point in the game area]
 * Create a new file every single time a button is pressed
 * Consolidate all three CSV files into a singular CSV file 
 * Have a more visual way of viewing the data
-* Include an avatar to make movement seem more natural 
+* Include an avatar to make movement seem more natural [Maya]
+* Event file 
+* Keypresses 
 
 
 
