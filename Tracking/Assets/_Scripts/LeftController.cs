@@ -3,9 +3,13 @@ using System.Collections;
 using System.Text;
 using System.IO;
 
-public class LeftController : MonoBehaviour {
+public class LeftController : Controller {
 
 	bool isRecording = true; 
+
+	void Start () {
+		identifier = "left"; 	
+	}
 
 	//Called once every frame 
 	void Update () {
@@ -18,18 +22,18 @@ public class LeftController : MonoBehaviour {
 
 	}
 
-	//Creates a new CSV file [if it does not already exist] and saves the date, time, and current position 
-	//of the left controller on a new line in the file 
-	void SaveCSV () {
-		StringBuilder csvcontent = new StringBuilder ();
-		Vector3 currPos = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
-		Quaternion currRot = new Quaternion (transform.rotation.x, transform.rotation.y, transform.rotation.z, 
-			transform.rotation.w); 
-		csvcontent.AppendLine (System.DateTime.Now.ToString() + ",  Position: " + 
-			currPos.ToString() + ",  Rotation: " + currRot.ToString()); 
-		System.IO.File.AppendAllText ("LeftController.csv", csvcontent.ToString());
-
-	}
+//	//Creates a new CSV file [if it does not already exist] and saves the date, time, and current position 
+//	//of the left controller on a new line in the file 
+//	void SaveCSV () {
+//		StringBuilder csvcontent = new StringBuilder ();
+//		Vector3 currPos = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
+//		Quaternion currRot = new Quaternion (transform.rotation.x, transform.rotation.y, transform.rotation.z, 
+//			transform.rotation.w); 
+//		csvcontent.AppendLine (System.DateTime.Now.ToString() + ",  Position: " + 
+//			currPos.ToString() + ",  Rotation: " + currRot.ToString()); 
+//		System.IO.File.AppendAllText ("LeftController.csv", csvcontent.ToString());
+//
+//	}
 
 	//If the l key is pressed, the previous log of time, movement, and rotation is deleted. 
 	void ClearCSV () { 
