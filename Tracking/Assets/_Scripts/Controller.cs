@@ -2,18 +2,23 @@
 using System.Collections;
 using System.Text;
 using System.IO;
+using UnityEngine.UI;
 
 public class Controller : MonoBehaviour {
 
 	protected string identifier; 
 	protected string delimeter = ",";
 	public bool isRecording = true; 
-	public string userName = "userName"; 
+	public string userName; 
 
 	private string startTime; 
 
-	void Start () {
+	void Awake () {
 		startTime = System.DateTime.Now.ToString(); 
+		//remove all backslashes
+		startTime = startTime.Replace("/", "");
+		//strip whitespaces from all areas
+		startTime = startTime.Replace(" ", "");
 	}
 
 	//Creates a new CSV file [if it does not already exist] and saves the date, time, and current position 
