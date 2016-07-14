@@ -8,7 +8,7 @@ public class HeadController : Controller {
 	bool isRecording = true;
 
 	void Start () {
-		identifier = ""; 	
+		identifier = "head"; 	
 	}
 
 	//Called once every frame 
