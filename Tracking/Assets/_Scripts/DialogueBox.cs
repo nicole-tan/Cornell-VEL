@@ -4,16 +4,14 @@ using UnityEditor;
 
 public class DialogueBox : MonoBehaviour {
 
-	string userName;
+	private string userName = "userName";
 	string savedFileName;
 
-	void OnGUI() {
-		userName = EditorGUILayout.TextField ("User Name", userName);
-
-		if (GUILayout.Button ("Save")) {
-			OnClickSaveName (); 
-		
-		} 
+	void Start() {
+		GUI.enabled = true; 
+	}
+	void OnGUI () {
+		userName = GUI.TextField (new Rect (500, 25, 100, 30), userName, 25); 
 	}
 
 

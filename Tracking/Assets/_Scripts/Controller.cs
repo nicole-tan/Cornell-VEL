@@ -9,6 +9,11 @@ public class Controller : MonoBehaviour {
 	protected string delimeter = ",";
 	public bool isRecording = true; 
 
+	private string startTime; 
+
+	void Start () {
+		startTime = System.DateTime.Now.ToString(); 
+	}
 
 	//Creates a new CSV file [if it does not already exist] and saves the date, time, and current position 
 	//of the controller with the given name on a new line in the file 
@@ -23,17 +28,17 @@ public class Controller : MonoBehaviour {
 
 		if (identifier == "head") {
 			csvcontent.AppendLine (csvdata); 
-			System.IO.File.AppendAllText ("ConsolidatedData.csv", csvcontent.ToString());
+			System.IO.File.AppendAllText (startTime + ".csv", csvcontent.ToString());
 		} 
 
 		else if (identifier == "right") {
 			csvcontent.AppendLine (csvdata); 
-			System.IO.File.AppendAllText ("ConsolidatedData.csv", csvcontent.ToString());	
+			System.IO.File.AppendAllText (startTime + ".csv", csvcontent.ToString());	
 		}
 
 		else {
 			csvcontent.AppendLine (csvdata); 
-			System.IO.File.AppendAllText ("ConsolidatedData.csv", csvcontent.ToString());	
+			System.IO.File.AppendAllText (startTime + ".csv", csvcontent.ToString());	
 		
 		}
 
