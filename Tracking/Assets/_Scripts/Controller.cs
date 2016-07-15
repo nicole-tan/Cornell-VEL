@@ -29,6 +29,11 @@ public class Controller : DialogueBox {
 		return newString; 
 	}
 
+	public void CreateCSV() {
+		string header = "date-time,h_x,h_y,h_z,h_p,h_y,h_r,r_x,r_y,r_z,r_p,r_y,r_r,l_x,l_y,l_z,l_p,l_y,l_r \n";
+		File.AppendAllText (startTime + "_" + userName + ".csv", header); 
+	}
+
 	//Creates a new CSV file [if it does not already exist] and saves the date, time, and current position 
 	//of the controller with the given name on a new line in the file 
 	public void SaveCSV () {

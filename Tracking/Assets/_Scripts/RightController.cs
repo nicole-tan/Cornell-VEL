@@ -7,6 +7,7 @@ public class RightController : Controller {
 
 	void Start () {
 		identifier = "right"; 	
+		CreateCSV ();
 	}
 
 	//Called once every frame 
