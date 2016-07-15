@@ -6,8 +6,7 @@ using System.IO;
 public class HeadController : Controller {
 
 	void Start () {
-		identifier = "head"; 
-		CreateCSV ();
+		identifier = "head"; 	
 	}
 
 	//Called once every frame 
@@ -17,6 +16,7 @@ public class HeadController : Controller {
 
 	void FixedUpdate () {
 		WriteToCSV ();
+		EventPress ();
 	}
 
 		

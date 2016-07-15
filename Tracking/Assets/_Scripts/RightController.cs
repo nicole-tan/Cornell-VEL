@@ -6,8 +6,7 @@ using System.IO;
 public class RightController : Controller {
 
 	void Start () {
-		identifier = "right"; 
-		CreateCSV (); 
+		identifier = "right"; 	
 	}
 
 	//Called once every frame 
@@ -17,6 +16,7 @@ public class RightController : Controller {
 
 	void FixedUpdate () {
 		WriteToCSV ();
+		EventPress ();
 	}
 		
 
