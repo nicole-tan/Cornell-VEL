@@ -8,7 +8,6 @@ public class Events : MonoBehaviour {
 	
 	protected string identifier; 
 	protected string delimeter = ",";
-	public bool isEvent = false;
 	
 	void FixedUpdate() {
 		EventPress (); 
@@ -16,20 +15,10 @@ public class Events : MonoBehaviour {
 
 	public void EventPress () {
 		if (Input.GetKeyDown (KeyCode.E)) {
-			isEvent = !isEvent; 
-			CheckEvent (); 
-		} 
-		else {
-			CheckEvent ();
-		}
-
-	}
-
-	public void CheckEvent() {
-		if (isEvent == true) {
 			SaveEvent ();
 		}
 	}
+		
 
 	public void SaveEvent () {
 		StringBuilder csvcontent = new StringBuilder ();
