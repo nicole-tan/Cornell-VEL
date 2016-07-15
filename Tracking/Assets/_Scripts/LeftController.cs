@@ -17,7 +17,6 @@ public class LeftController : Controller {
 
 	void FixedUpdate () {
 		WriteToCSV ();
-		EventPress ();
 	}
 
 

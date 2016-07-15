@@ -17,7 +17,6 @@ public class HeadController : Controller {
 
 	void FixedUpdate () {
 		WriteToCSV ();
-		EventPress ();
 	}
 
 		
