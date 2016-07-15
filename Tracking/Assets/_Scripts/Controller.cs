@@ -34,21 +34,9 @@ public class Controller : DialogueBox {
 		                 delimeter + currPos [2] + delimeter + currRot [0] + delimeter + currRot [1] + delimeter + currRot [2] +
 		                 delimeter + identifier;
 
-		if (identifier == "head") {
-			csvcontent.AppendLine (csvdata); 
-			System.IO.File.AppendAllText (startTime + "_" + userName + ".csv", csvcontent.ToString());
-		} 
-
-		else if (identifier == "right") {
-			csvcontent.AppendLine (csvdata); 
-			System.IO.File.AppendAllText (startTime + "_" + userName + ".csv", csvcontent.ToString());
-		}
-
-		else if (identifier == "left") {
-			csvcontent.AppendLine (csvdata); 
-			System.IO.File.AppendAllText (startTime + "_" + userName + ".csv", csvcontent.ToString());	
 		
-		}
+			csvcontent.AppendLine (csvdata);
+			File.AppendAllText (startTime + "_" + userName + ".csv", csvcontent.ToString());	
 
 	}
 
