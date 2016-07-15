@@ -6,7 +6,8 @@ using System.IO;
 public class RightController : Controller {
 
 	void Start () {
-		identifier = "right"; 	
+		identifier = "right"; 
+		CreateCSV (); 
 	}
 
 	//Called once every frame 
