@@ -37,6 +37,14 @@ If only one controller is being used, the RightController.csv file will contain 
       Roll 5x 
 
 ###To Be Implemented
+* Recording data in columns
+* Recording in milliseconds
+* Event page display events on single line per event
+* Kill fixed update --> judder change?
+* Remove toggling of keypresses for now
+* Download test games
+* Run in beta?
+* Link controllers to stock robot
 * Create a dialogue box that allows you to choose the user and will allow you to either create a new file or use an existing one
 * Create a new file every single time a button is pressed
 * Have a more visual way of viewing the data
