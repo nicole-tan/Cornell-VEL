@@ -22,6 +22,12 @@ public class Controller : DialogueBox {
 		//replace colon with underscore
 		startTime = startTime.Replace(":", "_");
 	}
+	private string fixTime () {
+		string currTime = System.DateTime.Now.ToString (); 
+		string newString = currTime + ":" + System.DateTime.Now.Millisecond.ToString(); 
+
+		return newString; 
+	}
 
 	//Creates a new CSV file [if it does not already exist] and saves the date, time, and current position 
 	//of the controller with the given name on a new line in the file 
@@ -29,8 +35,9 @@ public class Controller : DialogueBox {
 		StringBuilder csvcontent = new StringBuilder ();
 		Vector3 currPos = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
 		Vector3 currRot = new Vector3 (transform.eulerAngles.x, transform.eulerAngles.y, transform.eulerAngles.z);
+		string milliString = fixTime ();
 
-		string csvdata = System.DateTime.Now.ToString () + delimeter + currPos [0] + delimeter + currPos [1] +
+		string csvdata = milliString + delimeter + currPos [0] + delimeter + currPos [1] +
 		                 delimeter + currPos [2] + delimeter + currRot [0] + delimeter + currRot [1] + delimeter + currRot [2] +
 		                 delimeter + identifier;
 
