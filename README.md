@@ -1,7 +1,7 @@
 # Cornell Virtual Engagement Lab
 
 ##Tracking
-The tracking section uses Unity and C# scripts to create a single CSV file that records the time and date stamps, position, and rotation of the HTC Vive headset as well as the left and right controllers. If the time is the same for recorded output, it will be displayed in the CSV file in the order head, left controller, right controller (the body part is also notated at the end of each recorded line).
+The tracking section uses Unity and C# scripts to create a single CSV file that records the date-time stamps [to the millisecond for accuracy], position, and rotation of the HTC Vive headset as well as the left and right controllers. If the time is the same for recorded output, it will be displayed in the CSV file in the order head, left controller, right controller (the body part is also notated at the end of each recorded line).
 
 ###General 
 The outputted information is determined by an absolute coordinate system, indicated by the ball at the center of the screen. 
@@ -12,6 +12,9 @@ Once the application is quit, a series of new lines and a line of asterisk delim
 
 ####Left and Right Controllers
 If only one controller is being used, the RightController.csv file will contain the tracking information for that moving controller. When both controllers are active, the one that is leftmost in space is recorded as left. 
+
+###Events
+Events are recorded by pressing down the 'E' key. This records down the timestamp and event name, as well as the location and rotation for that particular event, making it easy to debug tracking movements. 
 
 ###Testing
 1. Left hand: 
@@ -38,9 +41,8 @@ If only one controller is being used, the RightController.csv file will contain 
 
 ###To Be Implemented
 * Recording data in columns
-* Recording in milliseconds
-* Event page display events on single line per event
 * Kill fixed update --> judder change?
+* Preferences screen where you can customize the username [for the file], the event name, saving to an existing file, etc 
 * Remove toggling of keypresses for now
 * Download test games
 * Run in beta?
