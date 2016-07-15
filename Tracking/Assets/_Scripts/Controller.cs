@@ -30,7 +30,7 @@ public class Controller : DialogueBox {
 		Vector3 currPos = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
 		Vector3 currRot = new Vector3 (transform.eulerAngles.x, transform.eulerAngles.y, transform.eulerAngles.z);
 
-		string csvdata = System.DateTime.Now.ToString () + delimeter + currPos [0] + delimeter + currPos [1] +
+		string csvdata = System.DateTime.Now.ToString () + System.DateTime.Now.Millisecond.ToString() + delimeter + currPos [0] + delimeter + currPos [1] +
 		                 delimeter + currPos [2] + delimeter + currRot [0] + delimeter + currRot [1] + delimeter + currRot [2] +
 		                 delimeter + identifier;
 
