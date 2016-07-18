@@ -45,12 +45,12 @@ public class Controller : DialogueBox {
 		string milliString = fixTime ();
 
 		string csvdata = milliString + delimeter + currPos [0] + delimeter + currPos [1] +
-		                 delimeter + currPos [2] + delimeter + currRot [0] + delimeter + currRot [1] + delimeter + currRot [2] +
-		                 delimeter + identifier;
+			delimeter + currPos [2] + delimeter + currRot [0] + delimeter + currRot [1] + delimeter + currRot [2] +
+			delimeter + identifier;
 
-		
-			csvcontent.AppendLine (csvdata);
-            File.AppendAllText (startTime + "_" + userName + ".csv", csvcontent.ToString());	
+
+		csvcontent.AppendLine (csvdata);
+		File.AppendAllText (startTime + "_" + userName + ".csv", csvcontent.ToString());	
 
 	}
 

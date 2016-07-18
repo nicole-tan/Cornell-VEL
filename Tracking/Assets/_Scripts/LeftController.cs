@@ -13,11 +13,12 @@ public class LeftController : Controller {
 	//Called once every frame 
 	void Update () {
 		ClearCSV (); 
+		WriteToCSV ();
 	} 
 
-	void FixedUpdate () {
-		WriteToCSV ();
-	}
+//	void FixedUpdate () {
+//		WriteToCSV ();
+//	}
 
 
 	//If the l key is pressed, the previous log of time, movement, and rotation is deleted. 

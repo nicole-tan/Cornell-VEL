@@ -13,11 +13,12 @@ public class RightController : Controller {
 	//Called once every frame 
 	void Update () {
 		ClearCSV ();
-	}
-
-	void FixedUpdate () {
 		WriteToCSV ();
 	}
+
+//	void FixedUpdate () {
+//		WriteToCSV ();
+//	}
 		
 
 	//If the r key is pressed, the previous log of time, movement, and rotation is deleted. 
