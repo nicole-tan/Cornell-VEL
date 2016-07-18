@@ -84,6 +84,7 @@
      <Compile Include="Assets\_Scripts\LeftController.cs" />
      <Compile Include="Assets\_Scripts\RightController.cs" />
      <Compile Include="Assets\_Scripts\RigidbodyFPSWalker.cs" />
+     <Compile Include="Assets\_Scripts\SimpleSmoothMouseLook.cs" />
      <Compile Include="Assets\_Scripts\UserController.cs" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_BlitFlip.shader" />
