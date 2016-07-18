@@ -39,6 +39,9 @@ Events are recorded by pressing down the 'E' key. This records down the timestam
       Yaw 5x <br />
       Roll 5x 
 
+##Character
+The given character [Kyle the Robot] is an imported model from Unity's free assets. The head and bodily motions of the headset and controllers are accurately reflected in the first person movements of Kyle the Robot. A mirror is set up in the scene in order to better debug movements. 
+
 ###To Be Implemented
 * Recording data in columns
 * Kill fixed update --> judder change?
@@ -50,7 +53,6 @@ Events are recorded by pressing down the 'E' key. This records down the timestam
 * Create a dialogue box that allows you to choose the user and will allow you to either create a new file or use an existing one
 * Create a new file every single time a button is pressed
 * Have a more visual way of viewing the data
-* Include an avatar to make movement seem more natural [Maya]
 * Customizable keypresses 
 
 
