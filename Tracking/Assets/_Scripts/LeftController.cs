@@ -13,7 +13,7 @@ public class LeftController : Controller {
 	//Called once every frame 
 	void Update () {
 		ClearCSV (); 
-		WriteToCSV ();
+		SaveCSV ();
 	} 
 
 //	void FixedUpdate () {
