@@ -6,7 +6,7 @@ using System.IO;
 public class LeftController : Controller {
 
 	void Start () {
-		identifier = "left"; 
+		identifier = "LeftController"; 
 		CreateCSV ();
 	}
 

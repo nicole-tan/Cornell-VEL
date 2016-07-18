@@ -50,7 +50,7 @@ public class Controller : DialogueBox {
 
 
 		csvcontent.AppendLine (csvdata);
-		File.AppendAllText (startTime + "_" + userName + ".csv", csvcontent.ToString());	
+		File.AppendAllText (startTime + "_" + userName + identifier + ".csv", csvcontent.ToString());	
 
 	}
 

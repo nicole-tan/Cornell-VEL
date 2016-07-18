@@ -6,14 +6,14 @@ using System.IO;
 public class HeadController : Controller {
 
 	void Start () {
-		identifier = "head";
+		identifier = "Head";
 		CreateCSV ();
 	}
 
 	//Called once every frame 
 	void Update () {
 		ClearCSV ();
-		SaveCSV ();
+		SaveCSV (); 
 	} 
 
 //	void FixedUpdate () {
