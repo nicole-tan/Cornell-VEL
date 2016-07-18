@@ -13,12 +13,15 @@ public class LeftController : Controller {
 	//Called once every frame 
 	void Update () {
 		//ClearCSV (); 
-		if (shouldUpdate == true) {
-			shouldUpdate = !shouldUpdate;
+		if (shouldUpdate == 1) {
+			shouldUpdate = shouldUpdate + 1;
 			SaveCSV ();
 		} 
+		else if (shouldUpdate == 2) {
+			shouldUpdate = shouldUpdate + 1; 
+		} 
 		else {
-			shouldUpdate = !shouldUpdate;
+			shouldUpdate = 1; 
 		}
 	} 
 

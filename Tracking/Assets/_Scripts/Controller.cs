@@ -9,7 +9,7 @@ public class Controller : DialogueBox {
 	protected string identifier; 
 	protected string delimeter = ",";
 	public bool isRecording = true; 
-	public bool shouldUpdate = true; 
+	public int shouldUpdate = 1; 
 
 	private string startTime; 
 
