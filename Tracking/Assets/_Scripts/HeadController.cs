@@ -12,8 +12,14 @@ public class HeadController : Controller {
 
 	//Called once every frame 
 	void Update () {
-		ClearCSV ();
-		SaveCSV (); 
+		//ClearCSV (); 
+		if (shouldUpdate == true) {
+			shouldUpdate = !shouldUpdate;
+			SaveCSV ();
+		} 
+		else {
+			shouldUpdate = !shouldUpdate;
+		}
 	} 
 
 //	void FixedUpdate () {

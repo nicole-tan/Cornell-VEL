@@ -12,9 +12,15 @@ public class RightController : Controller {
 
 	//Called once every frame 
 	void Update () {
-		ClearCSV ();
-		SaveCSV ();
-	}
+		//ClearCSV (); 
+		if (shouldUpdate == true) {
+			shouldUpdate = !shouldUpdate;
+			SaveCSV ();
+		} 
+		else {
+			shouldUpdate = !shouldUpdate;
+		}
+	} 
 
 //	void FixedUpdate () {
 //		WriteToCSV ();
