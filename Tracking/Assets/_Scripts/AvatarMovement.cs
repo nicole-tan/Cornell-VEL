@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class AvatarMovement : ViveController {
+public class AvatarMovement : SteamVR_Camera {
 
 	void Update () {
-		transform.position = currCamera.transform.position; 
+		transform.position = head.transform.position; 
 	}
 
 	public void moveBody () {
