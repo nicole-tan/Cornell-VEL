@@ -42,6 +42,9 @@ Events are recorded by pressing down the 'E' key. This records down the timestam
 ##Character
 The given character [Kyle the Robot] is an imported model from Unity's free assets. The head and bodily motions of the headset and controllers are accurately reflected in the first person movements of Kyle the Robot. A mirror is set up in the scene in order to better debug movements. Though the movements themselves are currently accurate, the resulting movements do not perfectly correspond to the movements of attached joints which is a problem we are currently working on fixing. 
 
+###Character Scripting
+The character's movements all correspond to a script, Avatar Movement, that changes the movement of the avatar's body in correspondence with the movements of the head mounting device as well as that of the two controllers. This prevents the separation of body parts that would occur when attaching part of the body to SteamVR's individual camera rigs.
+
 ###To Be Implemented
 * Recording data in columns
 * Kill fixed update --> judder change?
