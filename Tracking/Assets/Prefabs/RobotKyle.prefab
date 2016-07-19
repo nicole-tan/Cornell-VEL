@@ -220,7 +220,7 @@ GameObject:
   - 4: {fileID: 492946}
   - 95: {fileID: 9597374}
   m_Layer: 0
-  m_Name: Robot Kyle(Clone)
+  m_Name: RobotKyle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
