@@ -3,6 +3,7 @@ using System.Collections;
 using System.Text;
 using System.IO;
 using UnityEngine.UI;
+using Valve.VR;
 
 public class Controller : DialogueBox {
 
@@ -14,6 +15,8 @@ public class Controller : DialogueBox {
 	private string startTime; 
 
 	void Awake () {
+		SteamVR_Camera.sceneResolutionScale = 0.5f; 
+
 		startTime = System.DateTime.Now.ToString(); 
 		//remove all backslashes
 		startTime = startTime.Replace("/", "");
