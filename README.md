@@ -4,8 +4,8 @@
 The tracking section uses Unity and C# scripts to create three CSV files that record the date-time stamps [to the millisecond for accuracy], position, and rotation of the HTC Vive headset as well as the left and right controllers. If the time is the same for recorded output, it will be displayed in the CSV file in the order head, left controller, right controller (the body part is also notated at the end of each recorded line).
 
 ###General 
-The outputted information is determined by an absolute coordinate system, indicated by the ball at the center of the screen. 
-The information is recorded immediately when the play button is pressed. <br />
+The outputted information is determined by an absolute coordinate system, with the origin indicated by the ball at the center of the screen. 
+The information is recorded immediately when the play button is pressed or when the build is executed. <br />
 When the space button is pressed, the output stops being recorded to the CSV file. When it is pressed again, recording continues. <br /> 
 To delete recorded output, press either the l, h, or r key [left controller, head, right controller respectively]. <br />
 Once the application is quit, a series of new lines and a line of asterisk delimeters will be entered to separate run-through data. 
@@ -58,7 +58,7 @@ The character's movements all correspond to a script, Avatar Movement, that chan
 * Have a more visual way of viewing the data
 * Customizable keypresses 
 * Looking into animation tutorials to figure out how to move the skeleton of avatars
-* High fiedlity - networked second life VR spinoff
+* High fidelity - networked second life VR spinoff
 
 
 
