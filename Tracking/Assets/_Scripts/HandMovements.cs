@@ -2,9 +2,12 @@
 using System.Collections;
 
 public class HandMovements : SteamVR_ControllerManager {
+	public GameObject leftHand;
+	public GameObject rightHand; 
 
 	void Update() {
-		transform.position = left.transform.position; 
+		leftHand.transform.position = left.transform.position;
+		rightHand.transform.position = right.transform.position; 
 	}
 
 
