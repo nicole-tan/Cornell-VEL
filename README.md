@@ -1,7 +1,7 @@
 # Cornell Virtual Engagement Lab
 
 ##Tracking
-The tracking section uses Unity and C# scripts to create a single CSV file that records the date-time stamps [to the millisecond for accuracy], position, and rotation of the HTC Vive headset as well as the left and right controllers. If the time is the same for recorded output, it will be displayed in the CSV file in the order head, left controller, right controller (the body part is also notated at the end of each recorded line).
+The tracking section uses Unity and C# scripts to create three CSV files that record the date-time stamps [to the millisecond for accuracy], position, and rotation of the HTC Vive headset as well as the left and right controllers. If the time is the same for recorded output, it will be displayed in the CSV file in the order head, left controller, right controller (the body part is also notated at the end of each recorded line).
 
 ###General 
 The outputted information is determined by an absolute coordinate system, indicated by the ball at the center of the screen. 
@@ -40,7 +40,7 @@ Events are recorded by pressing down the 'E' key. This records down the timestam
       Roll 5x 
 
 ##Character
-The given character [Kyle the Robot] is an imported model from Unity's free assets. The head and bodily motions of the headset and controllers are accurately reflected in the first person movements of Kyle the Robot. A mirror is set up in the scene in order to better debug movements. 
+The given character [Kyle the Robot] is an imported model from Unity's free assets. The head and bodily motions of the headset and controllers are accurately reflected in the first person movements of Kyle the Robot. A mirror is set up in the scene in order to better debug movements. Though the movements themselves are currently accurate, the resulting movements do not perfectly correspond to the movements of attached joints which is a problem we are currently working on fixing. 
 
 ###To Be Implemented
 * Recording data in columns
@@ -54,6 +54,8 @@ The given character [Kyle the Robot] is an imported model from Unity's free asse
 * Create a new file every single time a button is pressed
 * Have a more visual way of viewing the data
 * Customizable keypresses 
+* Looking into animation tutorials to figure out how to move the skeleton of avatars
+* High fiedlity - networked second life VR spinoff
 
 
 
