@@ -81,6 +81,7 @@
      <Compile Include="Assets\_Scripts\Controller.cs" />
      <Compile Include="Assets\_Scripts\DialogueBox.cs" />
      <Compile Include="Assets\_Scripts\Events.cs" />
+     <Compile Include="Assets\_Scripts\HandMovements.cs" />
      <Compile Include="Assets\_Scripts\HeadController.cs" />
      <Compile Include="Assets\_Scripts\LeftController.cs" />
      <Compile Include="Assets\_Scripts\RightController.cs" />
