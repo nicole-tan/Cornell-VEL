@@ -54,6 +54,8 @@ The given character [Kyle the Robot] is an imported model from Unity's free asse
 * Create a new file every single time a button is pressed
 * Have a more visual way of viewing the data
 * Customizable keypresses 
+* Looking into animation tutorials to figure out how to move the skeleton of avatars
+* High fiedlity - networked second life VR spinoff
 
 
 
