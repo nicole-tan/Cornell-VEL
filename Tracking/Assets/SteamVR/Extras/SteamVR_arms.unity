@@ -2240,13 +2240,17 @@ MonoBehaviour:
   target: {fileID: 1767194830}
   start: {fileID: 2006680115}
   joint: {fileID: 2006680116}
-  end: {fileID: 0}
+  end: {fileID: 2006680119}
   poleVector: {fileID: 1205044774}
   upVector: {fileID: 420826061}
   blendPct: 1
   startXform: {fileID: 0}
   jointXform: {fileID: 0}
   endXform: {fileID: 0}
+--- !u!4 &2006680119 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400010, guid: fa6c7fc5a5f364b62a12078e262d7bfa, type: 3}
+  m_PrefabInternal: {fileID: 2006680113}
 --- !u!1 &2016251416
 GameObject:
   m_ObjectHideFlags: 0
