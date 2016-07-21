@@ -45,12 +45,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AllStarCharacterLibray\Scripts\CamTarget.cs" />
-     <Compile Include="Assets\AllStarCharacterLibray\Scripts\CharacterDemoController.cs" />
-     <Compile Include="Assets\AllStarCharacterLibray\Scripts\MouseOrbit.cs" />
-     <Compile Include="Assets\AllStarCharacterLibray\Scripts\Outfitter.cs" />
-     <Compile Include="Assets\AllStarCharacterLibray\Scripts\RootMotionOff.cs" />
-     <Compile Include="Assets\AllStarCharacterLibray\Scripts\SkinnedMeshCombiner.cs" />
+     <Compile Include="Assets\Secretary_2\Scripts\CamTarget.cs" />
+     <Compile Include="Assets\Secretary_2\Scripts\CharacterDemoController.cs" />
+     <Compile Include="Assets\Secretary_2\Scripts\MouseOrbit.cs" />
+     <Compile Include="Assets\Secretary_2\Scripts\Outfitter.cs" />
+     <Compile Include="Assets\Secretary_2\Scripts\RootMotionOff.cs" />
+     <Compile Include="Assets\Secretary_2\Scripts\SkinnedMeshCombiner.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
