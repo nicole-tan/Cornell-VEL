@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 742ff539f8e394f9f85e1115387ac7d0
+timeCreated: 1469113012
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: c06_top
+    100004: fb02
+    100006: fb03
+    100008: fb05
+    100010: hair01
+    100012: hair02
+    100014: hair03
+    100016: hair04
+    100018: hair05
+    100020: hair06
+    100022: hair07
+    100024: hair08
+    100026: hair09
+    100028: hair10
+    100030: hair13
+    100032: hair14
+    100034: hair15
+    100036: hair16
+    100038: Origin
+    400000: //RootNode
+    400002: c06_top
+    400004: fb02
+    400006: fb03
+    400008: fb05
+    400010: hair01
+    400012: hair02
+    400014: hair03
+    400016: hair04
+    400018: hair05
+    400020: hair06
+    400022: hair07
+    400024: hair08
+    400026: hair09
+    400028: hair10
+    400030: hair13
+    400032: hair14
+    400034: hair15
+    400036: hair16
+    400038: Origin
+    2300000: c06_top
+    2300002: fb02
+    2300004: fb03
+    2300006: fb05
+    2300008: hair01
+    2300010: hair02
+    2300012: hair03
+    2300014: hair04
+    2300016: hair05
+    2300018: hair06
+    2300020: hair07
+    2300022: hair08
+    2300024: hair09
+    2300026: hair10
+    2300028: hair13
+    2300030: hair14
+    2300032: hair15
+    2300034: hair16
+    3300000: c06_top
+    3300002: fb02
+    3300004: fb03
+    3300006: fb05
+    3300008: hair01
+    3300010: hair02
+    3300012: hair03
+    3300014: hair04
+    3300016: hair05
+    3300018: hair06
+    3300020: hair07
+    3300022: hair08
+    3300024: hair09
+    3300026: hair10
+    3300028: hair13
+    3300030: hair14
+    3300032: hair15
+    3300034: hair16
+    4300000: hair07
+    4300002: hair08
+    4300004: hair16
+    4300006: hair09
+    4300008: hair15
+    4300010: hair10
+    4300012: hair14
+    4300014: hair05
+    4300016: hair01
+    4300018: hair02
+    4300020: fb02
+    4300022: hair03
+    4300024: fb03
+    4300026: hair04
+    4300028: hair06
+    4300030: c06_top
+    4300032: fb05
+    4300034: hair13
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

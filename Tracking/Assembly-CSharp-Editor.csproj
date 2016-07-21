@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AllStarCharacterLibray\Scripts\Editor\TurnOffRenderers.cs" />
      <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
      <Compile Include="Assets\SteamVR\Editor\SteamVR_Editor.cs" />
      <Compile Include="Assets\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />

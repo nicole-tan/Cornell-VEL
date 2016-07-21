@@ -17,6 +17,7 @@ public class SteamVR_IK : MonoBehaviour
 	[HideInInspector]
 	public Transform startXform, jointXform, endXform;
 
+	//Called every frame after all Update functions have been called 
 	void LateUpdate()
 	{
 		const float epsilon = 0.001f;
@@ -93,12 +94,12 @@ public class SteamVR_IK : MonoBehaviour
 		end.rotation = targetRotation; // optionally blend?
 
 		// handle blending in/out
-		if (blendPct < 1.0f)
-		{
-			start.localRotation = Quaternion.Slerp(startRotationLocal, start.localRotation, blendPct);
-			joint.localRotation = Quaternion.Slerp(jointRotationLocal, joint.localRotation, blendPct);
-			end.localRotation = Quaternion.Slerp(endRotationLocal, end.localRotation, blendPct);
-		}
+//		if (blendPct < 1.0f)
+//		{
+//			start.localRotation = Quaternion.Slerp(startRotationLocal, start.localRotation, blendPct);
+//			joint.localRotation = Quaternion.Slerp(jointRotationLocal, joint.localRotation, blendPct);
+//			end.localRotation = Quaternion.Slerp(endRotationLocal, end.localRotation, blendPct);
+//		}
 
 		// restore scale so it doesn't blow out
 		start.localScale = startScale;
