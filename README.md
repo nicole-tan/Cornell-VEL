@@ -59,6 +59,11 @@ The character's movements all correspond to a script, Avatar Movement, that chan
 * Customizable keypresses 
 * Looking into animation tutorials to figure out how to move the skeleton of avatars
 * High fidelity - networked second life VR spinoff
+* Create customizable avatars and characters in VR
+
+###Helpful Links
+*Rigging a skeleton in Maya: https://www.youtube.com/watch?v=gUPbbhnUXhY
+
 
 
 
