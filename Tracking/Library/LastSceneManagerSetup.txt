@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SteamVR/Extras/SteamVR_arms.unity
+- path: Assets/curr_version.unity
   isLoaded: 1
   isActive: 1
