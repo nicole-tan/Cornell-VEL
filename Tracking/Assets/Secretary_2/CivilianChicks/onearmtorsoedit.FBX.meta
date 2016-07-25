@@ -1,43 +1,37 @@
 fileFormatVersion: 2
-guid: d2e7d32482ba594449282c08b0824818
-timeCreated: 1469215385
+guid: 6ee4d7b8e525847459e627084312d86d
+timeCreated: 1469468261
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: pasted__c06_top
-    100002: pasted__joint14
-    100004: pasted__joint15
-    100006: pasted__joint16
-    100008: pasted__joint17
-    100010: pasted__joint18
-    100012: pasted__joint19
-    100014: pasted__joint20
-    100016: pasted__joint21
-    100018: pasted__joint22
-    100020: pasted__joint23
-    100022: pasted__joint24
-    100024: pasted__joint25
-    100026: pasted__joint26
-    100028: //RootNode
-    400000: pasted__c06_top
-    400002: pasted__joint14
-    400004: pasted__joint15
-    400006: pasted__joint16
-    400008: pasted__joint17
-    400010: pasted__joint18
-    400012: pasted__joint19
-    400014: pasted__joint20
-    400016: pasted__joint21
-    400018: pasted__joint22
-    400020: pasted__joint23
-    400022: pasted__joint24
-    400024: pasted__joint25
-    400026: pasted__joint26
-    400028: //RootNode
-    4300000: pasted__c06_top
+    100000: group
+    100002: group1
+    100004: joint1
+    100006: joint2
+    100008: joint3
+    100010: joint4
+    100012: //RootNode
+    100014: pasted__group
+    100016: pasted__group 1
+    100018: pasted__pasted__group
+    100020: pasted__pasted__group 1
+    100022: pasted__pasted__pasted__c06_top1
+    400000: group
+    400002: group1
+    400004: joint1
+    400006: joint2
+    400008: joint3
+    400010: joint4
+    400012: //RootNode
+    400014: pasted__group
+    400016: pasted__group 1
+    400018: pasted__pasted__group
+    400020: pasted__pasted__group 1
+    400022: pasted__pasted__pasted__c06_top1
+    4300000: pasted__pasted__pasted__c06_top1
     9500000: //RootNode
-    13700000: pasted__c06_top
+    13700000: pasted__pasted__pasted__c06_top1
   materials:
     importMaterials: 1
     materialName: 0
