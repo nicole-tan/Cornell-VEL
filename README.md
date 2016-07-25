@@ -53,9 +53,7 @@ The character's head and torso movements all correspond to a script, Avatar Move
 * Kill fixed update --> judder change?
 * Preferences screen where you can customize the username [for the file], the event name, saving to an existing file, etc 
 * Remove toggling of keypresses for now
-* Download test games
 * Run in beta?
-* Link controllers to stock robot
 * Create a dialogue box that allows you to choose the user and will allow you to either create a new file or use an existing one
 * Create a new file every single time a button is pressed
 * Have a more visual way of viewing the data
@@ -63,7 +61,7 @@ The character's head and torso movements all correspond to a script, Avatar Move
 * High fidelity - networked second life VR spinoff
 * Create customizable avatars and characters in VR
 * Adding in new room dimensions and look 
-* Perfecting the hand mvoements
+* Perfecting the hand movements
 * Scaling the human avatar with that shown on the screen 
 
 ###Helpful Links
