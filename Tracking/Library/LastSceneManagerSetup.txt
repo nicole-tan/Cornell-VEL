@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/curr_version.unity
+- path: Assets/twoworkinghands.unity
   isLoaded: 1
   isActive: 1
