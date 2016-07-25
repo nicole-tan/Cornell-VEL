@@ -40,13 +40,13 @@ Events are recorded by pressing down the 'E' key. This records down the timestam
       Roll 5x 
 
 ##Character
-The given character [Kyle the Robot] is an imported model from Unity's free assets. The head and bodily motions of the headset and controllers are accurately reflected in the first person movements of Kyle the Robot. A mirror is set up in the scene in order to better debug movements. Though the movements themselves are currently accurate, the resulting movements do not perfectly correspond to the movements of attached joints which is a problem we are currently working on fixing. 
+The given character [secretary] is an imported model from Unity's free assets. The head and bodily motions of the headset and controllers are accurately reflected in the first person movements of the character. A mirror is set up in the scene in order to better debug movements. Though the movements themselves are currently accurate, the resulting movements do not perfectly correspond to the movements of attached joints which is a problem we are currently working on fixing. 
 
 ###Character Progress
-In order to get proper wrist movement, an arm has been separated from the rest of the mesh. A skeleton has been attached to the inside of that arm and I am using the IK module within SteamVR to debug movements.
+In order to get proper wrist movement, an arm has been separated from the rest of the mesh. A skeleton has been attached to the inside of that arm and I am using the IK module within SteamVR to debug movements. The torso is also currently separated and I am using Maya's skeletal system in order to properly rig the model and allow for accurate head turning and twisting movements. 
 
 ###Character Scripting
-The character's movements all correspond to a script, Avatar Movement, that changes the movement of the avatar's body in correspondence with the movements of the head mounting device as well as that of the two controllers. This prevents the separation of body parts that would occur when attaching part of the body to SteamVR's individual camera rigs.
+The character's head and torso movements all correspond to a script, Avatar Movement, that changes the movement of the avatar's body in correspondence with the movements of the head mounting device. Another script, Hand Movements, correspond to the left and right controller rotation and position. It allows for wrist turning and twisting as well as elbow and shoulder movements. 
 
 ###To Be Implemented
 * Recording data in columns
@@ -60,9 +60,11 @@ The character's movements all correspond to a script, Avatar Movement, that chan
 * Create a new file every single time a button is pressed
 * Have a more visual way of viewing the data
 * Customizable keypresses 
-* Looking into animation tutorials to figure out how to move the skeleton of avatars
 * High fidelity - networked second life VR spinoff
 * Create customizable avatars and characters in VR
+* Adding in new room dimensions and look 
+* Perfecting the hand mvoements
+* Scaling the human avatar with that shown on the screen 
 
 ###Helpful Links
 *Rigging a skeleton in Maya: https://www.youtube.com/watch?v=gUPbbhnUXhY
