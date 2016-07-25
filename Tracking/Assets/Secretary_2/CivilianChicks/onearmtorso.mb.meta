@@ -34,13 +34,6 @@ ModelImporter:
     100052: joint4
     100054: //RootNode
     100056: Origin
-    100058: group
-    100060: group1
-    100062: pasted__group
-    100064: pasted__group 1
-    100066: pasted__pasted__group
-    100068: pasted__pasted__group 1
-    100070: pasted__pasted__pasted__c06_top1
     400000: c06_bottom
     400002: c06_top
     400004: fb01
@@ -70,13 +63,6 @@ ModelImporter:
     400052: joint4
     400054: //RootNode
     400056: Origin
-    400058: group
-    400060: group1
-    400062: pasted__group
-    400064: pasted__group 1
-    400066: pasted__pasted__group
-    400068: pasted__pasted__group 1
-    400070: pasted__pasted__pasted__c06_top1
     2300000: c06_bottom
     2300002: fb01
     2300004: fb02
@@ -144,10 +130,8 @@ ModelImporter:
     4300040: c06_bottom
     4300042: fb05
     4300044: hair13
-    4300046: pasted__pasted__pasted__c06_top1
     9500000: //RootNode
     13700000: c06_top
-    13700002: pasted__pasted__pasted__c06_top1
   materials:
     importMaterials: 1
     materialName: 0
