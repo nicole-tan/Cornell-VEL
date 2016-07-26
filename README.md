@@ -66,6 +66,7 @@ The character's head and torso movements all correspond to a script, Avatar Move
 * Making sure arms don't dislocate with movements --> Space between shoulder and torso should never be visible
 * No spinning 
 * Prevention of unnatural hand movements 
+* Current hand positions: [L: 0.042, -0.033, -0.41], [R: 0.154, -0.088, -0.409]
 
 ###Helpful Links
 *Rigging a skeleton in Maya: https://www.youtube.com/watch?v=gUPbbhnUXhY
