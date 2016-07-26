@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 9b14bde1e905647388683fb1b2109f53
-timeCreated: 1469559483
+timeCreated: 1469561060
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -19,10 +19,9 @@ ModelImporter:
     400008: joint4
     400010: //RootNode
     400012: pasted__c06_top2
-    2300000: pasted__c06_top2
-    3300000: pasted__c06_top2
     4300000: pasted__c06_top2
     9500000: //RootNode
+    13700000: pasted__c06_top2
   materials:
     importMaterials: 1
     materialName: 0
