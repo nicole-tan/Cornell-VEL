@@ -1,4 +1,4 @@
-# Cornell Virtual Engagement Lab
+# Cornell Virtual Embodiment Lab
 
 ##Tracking
 The tracking section uses Unity and C# scripts to create three CSV files that record the date-time stamps [to the millisecond for accuracy], position, and rotation of the HTC Vive headset as well as the left and right controllers. If the time is the same for recorded output, it will be displayed in the CSV file in the order head, left controller, right controller (the body part is also notated at the end of each recorded line).
