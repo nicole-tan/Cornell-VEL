@@ -62,7 +62,10 @@ The character's head and torso movements all correspond to a script, Avatar Move
 * Create customizable avatars and characters in VR
 * Adding in new room dimensions and look 
 * Perfecting the hand movements
-* Scaling the human avatar with that shown on the screen 
+* Scaling the human avatar with that shown on the screen --> Script according to the headset distance from floor
+* Making sure arms don't dislocate with movements --> Space between shoulder and torso should never be visible
+* No spinning 
+* Prevention of unnatural hand movements 
 
 ###Helpful Links
 *Rigging a skeleton in Maya: https://www.youtube.com/watch?v=gUPbbhnUXhY
