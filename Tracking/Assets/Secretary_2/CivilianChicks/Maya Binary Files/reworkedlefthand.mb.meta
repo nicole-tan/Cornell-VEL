@@ -4,7 +4,24 @@ timeCreated: 1469626743
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: group
+    100002: joint1
+    100004: joint2
+    100006: joint3
+    100008: joint4
+    100010: pasted__c06_top2
+    100012: //RootNode
+    400000: group
+    400002: joint1
+    400004: joint2
+    400006: joint3
+    400008: joint4
+    400010: pasted__c06_top2
+    400012: //RootNode
+    4300000: pasted__c06_top2
+    9500000: //RootNode
+    13700000: pasted__c06_top2
   materials:
     importMaterials: 1
     materialName: 0
