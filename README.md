@@ -40,10 +40,10 @@ Events are recorded by pressing down the 'E' key. This records down the timestam
       Roll 5x 
 
 ##Character
-The given character [secretary] is an imported model from Unity's free assets. The head and bodily motions of the headset and controllers are accurately reflected in the first person movements of the character. A mirror is set up in the scene in order to better debug movements. Though the movements themselves are currently accurate, the resulting movements do not perfectly correspond to the movements of attached joints which is a problem we are currently working on fixing. 
+The given character [secretary] is an imported model from Unity's free assets. The head and bodily motions of the headset and controllers are accurately reflected in the first person movements of the character. A mirror is set up in the scene in order to better debug movements. 
 
 ###Character Progress
-In order to get proper wrist movement, an arm has been separated from the rest of the mesh. A skeleton has been attached to the inside of that arm and I am using the IK module within SteamVR to debug movements. The torso is also currently separated and I am using Maya's skeletal system in order to properly rig the model and allow for accurate head turning and twisting movements. 
+The arms have been separated from the rest of the character mesh. The rigging within each of the arms allow for proper wrist movement. Also added on are controllers that are held within each hand. As of now, all wrist, elbow, and shoulder movement is accurately tracked with the exception of some wrist deformation when twisting the arms along the x-axis. Next to be added are the two feet, which will then be tracked by two more Vive controllers. 
 
 ###Character Scripting
 The character's head and torso movements all correspond to a script, Avatar Movement, that changes the movement of the avatar's body in correspondence with the movements of the head mounting device. Another script, Hand Movements, correspond to the left and right controller rotation and position. It allows for wrist turning and twisting as well as elbow and shoulder movements. 
