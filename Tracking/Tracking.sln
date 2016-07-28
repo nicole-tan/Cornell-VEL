@@ -7,6 +7,8 @@ Project("{2205DC08-2BA5-50B6-7AD7-1E3E2241D9A6}") = "Tracking", "Assembly-CSharp
 EndProject
 Project("{2205DC08-2BA5-50B6-7AD7-1E3E2241D9A6}") = "Tracking", "Assembly-CSharp-Editor.csproj", "{4935BE30-85C7-B5F2-5DC4-FCB124971522}"
 EndProject
+Project("{2205DC08-2BA5-50B6-7AD7-1E3E2241D9A6}") = "Tracking", "Assembly-UnityScript.unityproj", "{9B9A83EA-B17E-CE4D-6FE7-753DC434093B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{4935BE30-85C7-B5F2-5DC4-FCB124971522}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4935BE30-85C7-B5F2-5DC4-FCB124971522}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4935BE30-85C7-B5F2-5DC4-FCB124971522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B9A83EA-B17E-CE4D-6FE7-753DC434093B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9A83EA-B17E-CE4D-6FE7-753DC434093B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9A83EA-B17E-CE4D-6FE7-753DC434093B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9A83EA-B17E-CE4D-6FE7-753DC434093B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

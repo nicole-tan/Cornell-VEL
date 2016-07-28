@@ -5,8 +5,8 @@ public class LowerForearmMovements : MonoBehaviour {
 
 	public GameObject wrist; 
 		
-	// Update is called once per frame
-	void Update () {
+
+	void FixedUpdate () {
 		changeWristPosition ();
 	
 	}
@@ -15,8 +15,10 @@ public class LowerForearmMovements : MonoBehaviour {
 	//the lowerForearm's rotation to that new rotation amount 
 	void changeWristPosition() {
 		var wrist_pos = wrist.transform.eulerAngles; 
-		wrist_pos.x = wrist_pos.x * 0.5f; 
+		Debug.Log ("Original wrist position: " + wrist_pos);
+		wrist_pos.x = wrist_pos.x * 0.05f; 
 		transform.eulerAngles = wrist_pos; 
+		Debug.Log ("Lower forearm's position: " + wrist_pos);
 	
 	}
 }

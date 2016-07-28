@@ -70,6 +70,7 @@ public class SteamVR_IK : MonoBehaviour
 			jointXform.parent = startXform;
 		}
 
+		//COMMENTED OUT
 		jointXform.position = jointPosition;
 		jointXform.LookAt(end, preUp);
 		joint.parent = jointXform;
@@ -83,8 +84,10 @@ public class SteamVR_IK : MonoBehaviour
 		endXform.position = endPosition;
 		end.parent = endXform;
 
+		//COMMENTED OUT 
 		startXform.LookAt(result, up);
-		jointXform.LookAt(targetPosition, up);
+		//THE EVIL LINE 
+		//jointXform.LookAt(targetPosition, up);
 		endXform.rotation = targetRotation;
 
 		start.parent = startParent;

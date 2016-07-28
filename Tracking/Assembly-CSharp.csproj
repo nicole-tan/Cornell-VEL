@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\IK\Scripts\ik\IKLimb_BrunoFerreira.cs" />
      <Compile Include="Assets\Secretary_2\Scripts\CamTarget.cs" />
      <Compile Include="Assets\Secretary_2\Scripts\CharacterDemoController.cs" />
      <Compile Include="Assets\Secretary_2\Scripts\MouseOrbit.cs" />
@@ -97,6 +98,7 @@
      <Compile Include="Assets\_Scripts\SimpleSmoothMouseLook.cs" />
      <Compile Include="Assets\_Scripts\UserController.cs" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
+     <None Include="Assets\IK\Readme.txt" />
      <None Include="Assets\SteamVR\Resources\SteamVR_BlitFlip.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_HiddenArea.shader" />
