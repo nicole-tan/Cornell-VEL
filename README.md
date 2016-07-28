@@ -71,6 +71,7 @@ The character's head and torso movements all correspond to a script, Avatar Move
 ###Helpful Links
 *Rigging a skeleton in Maya: https://www.youtube.com/watch?v=gUPbbhnUXhY
 Hope? https://www.youtube.com/watch?v=bls91XlQHSY, https://www.youtube.com/watch?v=KYY7qo0z5h8, https://www.youtube.com/watch?v=A12gtS4oOgo
+*Was able to remove the upper arm rotation with the help of this link (http://serrarens.nl/passervr/inverse-kinematics-for-arms-in-unity-freeindie/) 
 
 
 
