@@ -46,12 +46,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\IK\Scripts\ik\IKLimb_BrunoFerreira.cs" />
-     <Compile Include="Assets\Secretary_2\Scripts\CamTarget.cs" />
-     <Compile Include="Assets\Secretary_2\Scripts\CharacterDemoController.cs" />
-     <Compile Include="Assets\Secretary_2\Scripts\MouseOrbit.cs" />
-     <Compile Include="Assets\Secretary_2\Scripts\Outfitter.cs" />
-     <Compile Include="Assets\Secretary_2\Scripts\RootMotionOff.cs" />
-     <Compile Include="Assets\Secretary_2\Scripts\SkinnedMeshCombiner.cs" />
+     <Compile Include="Assets\Secretary\Scripts\CamTarget.cs" />
+     <Compile Include="Assets\Secretary\Scripts\CharacterDemoController.cs" />
+     <Compile Include="Assets\Secretary\Scripts\MouseOrbit.cs" />
+     <Compile Include="Assets\Secretary\Scripts\Outfitter.cs" />
+     <Compile Include="Assets\Secretary\Scripts\RootMotionOff.cs" />
+     <Compile Include="Assets\Secretary\Scripts\SkinnedMeshCombiner.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
