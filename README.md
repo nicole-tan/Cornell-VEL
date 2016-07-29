@@ -67,6 +67,8 @@ The character's head and torso movements all correspond to a script, Avatar Move
 * Fixing of the ugly Unity meshes
 * Model the surrounding room 
 * Add legs and have them follow the arm movement appropriately 
+* Create a GUI that allows users to add ID in, input1 -> output 1 -> percentage...input4 -> output4 -> percentage where percentages are gain [amount of movement], speed, and/or accuracy
+* Balloon popping target practice game implemented
 
 ###Helpful Links
 *Rigging a skeleton in Maya: https://www.youtube.com/watch?v=gUPbbhnUXhY
