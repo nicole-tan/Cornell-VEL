@@ -63,10 +63,10 @@ The character's head and torso movements all correspond to a script, Avatar Move
 * Adding in new room dimensions and look 
 * Perfecting the hand movements
 * Scaling the human avatar with that shown on the screen --> Script according to the headset distance from floor
-* Making sure arms don't dislocate with movements --> Space between shoulder and torso should never be visible
-* No spinning 
 * Prevention of unnatural hand movements 
-* Current hand positions: [L: 0.042, -0.033, -0.41], [R: 0.154, -0.088, -0.409]
+* Fixing of the ugly Unity meshes
+* Model the surrounding room 
+* Add legs and have them follow the arm movement appropriately 
 
 ###Helpful Links
 *Rigging a skeleton in Maya: https://www.youtube.com/watch?v=gUPbbhnUXhY
