@@ -43,10 +43,10 @@ Events are recorded by pressing down the 'E' key. This records down the timestam
 The given character [secretary] is an imported model from Unity's free assets. The head and bodily motions of the headset and controllers are accurately reflected in the first person movements of the character. A mirror is set up in the scene in order to better debug movements. 
 
 ###Character Progress
-The arms have been separated from the rest of the character mesh. The rigging within each of the arms allow for proper wrist movement. Also added on are controllers that are held within each hand. As of now, all wrist, elbow, and shoulder movement is accurately tracked with the exception of some wrist deformation when twisting the arms along the x-axis. Next to be added are the two feet, which will then be tracked by two more Vive controllers. 
-
+The arms have been separated from the rest of the character mesh. The rigging within each of the arms allow for proper wrist movement. Also added on are controllers that are held within each hand. As of now, all wrist, elbow, and shoulder movement is accurately tracked with the exception of some wrist deformation when twisting the arms along the x-axis. The feet currently move alongside the head mounting device and rotate appropriately. Next to be implemented is adding two extra Vive controllers to the ankle area which will allow for an even more accurate array of tracked movement. 
 ###Character Scripting
-The character's head and torso movements all correspond to a script, Avatar Movement, that changes the movement of the avatar's body in correspondence with the movements of the head mounting device. Another script, Hand Movements, corresponds to the left and right controller rotation and position. It allows for wrist turning and twisting as well as elbow and shoulder movements. 
+
+The character's head and torso movements all correspond to a script, Avatar Movement, that changes the movement of the avatar's body in correspondence with the movements of the head mounting device. Another script, Hand Movements, corresponds to the left and right controller rotation and position. It allows for wrist turning and twisting as well as elbow and shoulder movements. The character's feet move using the Foot Movement script which allows for the feet to mostly follow the movements of the head mounting device [with some positioning and rotational constraints]. 
 
 ###To Be Implemented
 * Recording data in columns
@@ -68,7 +68,8 @@ The character's head and torso movements all correspond to a script, Avatar Move
 * Model the surrounding room 
 * Add legs and have them follow the arm movement appropriately 
 * Create a GUI that allows users to add ID in, input1 -> output 1 -> percentage...input4 -> output4 -> percentage where percentages are gain [amount of movement], speed, and/or accuracy
-* Balloon popping target practice game implemented
+* Balloon popping target practice game
+* Working on grip trigger system that will allow you to throw object
 
 ###Helpful Links
 *Rigging a skeleton in Maya: https://www.youtube.com/watch?v=gUPbbhnUXhY
