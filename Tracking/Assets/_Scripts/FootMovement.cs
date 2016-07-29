@@ -22,6 +22,6 @@ public class FootMovement : MonoBehaviour {
 		var headsetY = headset.transform.position.y;
 		var headsetZ = headset.transform.position.z;
 
-		transform.position = new Vector3 (headsetX, headsetY - 1.5f, headsetZ); 
+		transform.position = new Vector3 (headsetX + 0.1f, headsetY - 1.5f, headsetZ + 0.2f); 
 	}
 }
