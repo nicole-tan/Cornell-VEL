@@ -46,7 +46,7 @@ The given character [secretary] is an imported model from Unity's free assets. T
 The arms have been separated from the rest of the character mesh. The rigging within each of the arms allow for proper wrist movement. Also added on are controllers that are held within each hand. As of now, all wrist, elbow, and shoulder movement is accurately tracked with the exception of some wrist deformation when twisting the arms along the x-axis. Next to be added are the two feet, which will then be tracked by two more Vive controllers. 
 
 ###Character Scripting
-The character's head and torso movements all correspond to a script, Avatar Movement, that changes the movement of the avatar's body in correspondence with the movements of the head mounting device. Another script, Hand Movements, correspond to the left and right controller rotation and position. It allows for wrist turning and twisting as well as elbow and shoulder movements. 
+The character's head and torso movements all correspond to a script, Avatar Movement, that changes the movement of the avatar's body in correspondence with the movements of the head mounting device. Another script, Hand Movements, corresponds to the left and right controller rotation and position. It allows for wrist turning and twisting as well as elbow and shoulder movements. 
 
 ###To Be Implemented
 * Recording data in columns
