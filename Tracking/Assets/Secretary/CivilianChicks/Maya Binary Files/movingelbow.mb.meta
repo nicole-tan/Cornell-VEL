@@ -4,7 +4,30 @@ timeCreated: 1469734219
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: group
+    100002: group1
+    100004: //RootNode
+    100006: pasted__c06_top2
+    100008: pasted__Elbow
+    100010: pasted__Hand
+    100012: pasted__joint5
+    100014: pasted__joint6
+    100016: pasted__Shoulder
+    100018: pasted__Wrist
+    400000: group
+    400002: group1
+    400004: //RootNode
+    400006: pasted__c06_top2
+    400008: pasted__Elbow
+    400010: pasted__Hand
+    400012: pasted__joint5
+    400014: pasted__joint6
+    400016: pasted__Shoulder
+    400018: pasted__Wrist
+    4300000: pasted__c06_top2
+    9500000: //RootNode
+    13700000: pasted__c06_top2
   materials:
     importMaterials: 1
     materialName: 0

@@ -12,6 +12,10 @@ ModelImporter:
     100008: joint4
     100010: pasted__c06_top2
     100012: //RootNode
+    100014: L_Elbow
+    100016: L_Hand
+    100018: L_Shoulder
+    100020: L_Wrist
     400000: group
     400002: joint1
     400004: joint2
@@ -19,6 +23,10 @@ ModelImporter:
     400008: joint4
     400010: pasted__c06_top2
     400012: //RootNode
+    400014: L_Elbow
+    400016: L_Hand
+    400018: L_Shoulder
+    400020: L_Wrist
     4300000: pasted__c06_top2
     9500000: //RootNode
     13700000: pasted__c06_top2
