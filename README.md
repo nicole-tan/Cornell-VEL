@@ -51,6 +51,9 @@ The character's movements all correspond to a script, SteamVR_IK, that uses inve
 ###Character Functionality
 Due to the PickupParent script, the user can currently pick up spheres and other GameObjects from the floor by pressing down the Trigger button. They can then proceed to throw the objects with accurate velocity by flinging their arms and releasing the Trigger button. In order to reset the GameObjects to their original positions, the user can press the Touchpad button.
 
+##GUI System
+The GUI appears only on the computer screen. It allows researchers to input an ID number as well as the input and output controllers and the percentage of gain that should appear when the participant moves. This allows researchers to very easily and intuitively manipulate what the participant perceives as their own movements in Virtual Reality. 
+
 ###To Be Implemented
 * Recording data in columns
 * Kill fixed update --> judder change?
