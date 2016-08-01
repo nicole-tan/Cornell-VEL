@@ -5,16 +5,17 @@ public class FootMovement : MonoBehaviour {
 
 	public GameObject headset; 
 	private Vector3 initRotation;
-	private Vector3 prevPosition; 
+	private Vector3 initPosition; 
 
 	// Use this for initialization
 	void Start () { 
 		setPosition ();
+		initPosition = headset.transform.position; 
 		transform.rotation = headset.transform.rotation;
 		initRotation = headset.transform.eulerAngles;
 	
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		setPosition ();
@@ -27,7 +28,7 @@ public class FootMovement : MonoBehaviour {
 		var headsetY = headset.transform.position.y;
 		var headsetZ = headset.transform.position.z;
 
-		transform.position = new Vector3 (headsetX + 0.1f, headsetY - 1.5f, headsetZ + 0.2f); 
+		transform.position = new Vector3 (headsetX + 0.1f, initPosition.y, headsetZ + 0.2f); 
 	}
 
 	void setRotation () {
