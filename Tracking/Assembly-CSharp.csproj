@@ -88,12 +88,12 @@
      <Compile Include="Assets\_Scripts\Controller.cs" />
      <Compile Include="Assets\_Scripts\DialogueBox.cs" />
      <Compile Include="Assets\_Scripts\Events.cs" />
+     <Compile Include="Assets\_Scripts\FirstInpOut.cs" />
      <Compile Include="Assets\_Scripts\FootMovement.cs" />
      <Compile Include="Assets\_Scripts\HandMovements.cs" />
      <Compile Include="Assets\_Scripts\HeadController.cs" />
      <Compile Include="Assets\_Scripts\LeftController.cs" />
      <Compile Include="Assets\_Scripts\LowerForearmMovements.cs" />
-     <Compile Include="Assets\_Scripts\Menu.cs" />
      <Compile Include="Assets\_Scripts\PickupParent.cs" />
      <Compile Include="Assets\_Scripts\RightController.cs" />
      <Compile Include="Assets\_Scripts\RigidbodyFPSWalker.cs" />
