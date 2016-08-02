@@ -1,16 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\Menu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\FirstInpOut.cs">
     <Files>
-      <File FileName="Assets\_Scripts\Menu.cs" Line="8" Column="38" />
-      <File FileName="Assets\_Scripts\HandMovements.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\FootMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\PickupParent.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\AvatarMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\LowerForearmMovements.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\Scaling.cs" Line="1" Column="1" />
-      <File FileName="Assets\IK\Scripts\ik\IKLimb_BrunoFerreira.cs" Line="1" Column="1" />
-      <File FileName="Assets\SteamVR\Scripts\SteamVR_IK.cs" Line="19" Column="2" NotebookId="1" />
+      <File FileName="Assets\_Scripts\StartClicked.cs" Line="12" Column="63" />
+      <File FileName="Assets\_Scripts\SecondInpOut.cs" Line="30" Column="5" />
+      <File FileName="Assets\_Scripts\FirstInpOut.cs" Line="38" Column="35" />
+      <File FileName="Assets\SteamVR\Scripts\SteamVR_IK.cs" Line="55" Column="33" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

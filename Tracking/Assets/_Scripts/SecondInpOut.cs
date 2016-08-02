@@ -16,8 +16,6 @@ public class SecondInpOut : MonoBehaviour {
 	//Initialize as soon as your object loads into the scene
 	void Awake () {
 		AddListenerToDropdown (); 
-		secondInpDropResult = rightController;
-		secondOutDropResult = rightHand; 
 	}
 
 	//Adds a listener to the Dropdown's OnValueChange event
@@ -28,14 +26,14 @@ public class SecondInpOut : MonoBehaviour {
 		Dropdown dropdown2 = output2dropdown.GetComponent<Dropdown> (); 
 
 		//Add a listener to the event
-		dropdown.onValueChanged.AddListener(delegate {OnDropdownSelect(dropdown);}); 
-		dropdown2.onValueChanged.AddListener (delegate {OnOutputDropdownSelect(dropdown2);}); 
+		//dropdown.onValueChanged.AddListener(delegate {OnDropdownSelect(dropdown);}); 
+		//dropdown2.onValueChanged.AddListener (delegate {OnOutputDropdownSelect(dropdown2);}); 
 	}
 
 	/**When a dropdown option is selected, firstInpDropResult is set to the corresponding value.
 		The leftController is the parent if either the default or first option is chosen while
 		the rightController is the parent if the second option is chosen. **/
-	void OnDropdownSelect(Dropdown drop){
+	void OnDropdown2Select(Dropdown drop){
 		switch (drop.value) {
 		case 0: 
 			secondInpDropResult = rightController;
@@ -58,7 +56,7 @@ public class SecondInpOut : MonoBehaviour {
 	/**When a dropdown option is selected, firstOutDropResult is set to the corresponding value.
 		The leftHand is the child if either the default or first option is chosen while
 		the rightHand is the child if the second option is chosen. **/
-	void OnOutputDropdownSelect(Dropdown drop) {
+	void OnOutputDropdown2Select(Dropdown drop) {
 		switch (drop.value) {
 
 		case 0: 
