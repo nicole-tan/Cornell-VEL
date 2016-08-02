@@ -98,6 +98,7 @@
      <Compile Include="Assets\_Scripts\RightController.cs" />
      <Compile Include="Assets\_Scripts\RigidbodyFPSWalker.cs" />
      <Compile Include="Assets\_Scripts\Scaling.cs" />
+     <Compile Include="Assets\_Scripts\SecondInpOut.cs" />
      <Compile Include="Assets\_Scripts\ShoulderConstraints.cs" />
      <Compile Include="Assets\_Scripts\SimpleSmoothMouseLook.cs" />
      <Compile Include="Assets\_Scripts\UserController.cs" />
