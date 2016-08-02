@@ -2,13 +2,10 @@
 using System.Collections;
 using UnityEngine.UI; 
 
-public class FirstInpOut : MonoBehaviour {
+public class FirstInpOut : SecondInpOut {
 	public GameObject input1dropdown;
-	public GameObject leftController;
-	public GameObject leftHand; 
 	public GameObject output1dropdown;
-	public GameObject rightController;
-	public GameObject rightHand; 
+
 
 	protected GameObject firstInpDropResult;
 	protected GameObject firstOutDropResult; 
