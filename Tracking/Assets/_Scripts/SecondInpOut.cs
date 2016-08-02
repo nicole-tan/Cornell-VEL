@@ -16,6 +16,8 @@ public class SecondInpOut : MonoBehaviour {
 	//Initialize as soon as your object loads into the scene
 	void Awake () {
 		AddListenerToDropdown (); 
+		secondInpDropResult = rightController;
+		secondOutDropResult = rightHand; 
 	}
 
 	//Adds a listener to the Dropdown's OnValueChange event

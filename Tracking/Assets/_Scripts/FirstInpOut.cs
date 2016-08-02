@@ -6,13 +6,14 @@ public class FirstInpOut : SecondInpOut {
 	public GameObject input1dropdown;
 	public GameObject output1dropdown;
 
-
 	protected GameObject firstInpDropResult;
 	protected GameObject firstOutDropResult; 
 
 	//Initialize as soon as your object loads into the scene
 	void Awake () {
 		AddListenerToDropdown (); 
+		firstInpDropResult = leftController;
+		firstOutDropResult = leftHand; 
 	}
 
 	//Adds a listener to the Dropdown's OnValueChange event

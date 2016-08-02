@@ -3,14 +3,10 @@ using System.Collections;
 
 public class StartClicked : FirstInpOut {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		Debug.Log ("In start! The value of output1 is: " + firstOutDropResult);
-	
+	//The chosen controller becomes the parent of the respective chosen model
+	public void ChangeParent() {
+		firstOutDropResult.transform.parent = firstInpDropResult.transform;
+		secondOutDropResult.transform.parent = secondInpDropResult.transform; 
+
 	}
 }
