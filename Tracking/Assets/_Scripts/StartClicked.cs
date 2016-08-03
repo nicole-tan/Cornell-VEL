@@ -7,6 +7,8 @@ public class StartClicked : InputOuput {
 	public GameObject rightModel; 
 
 	//The chosen controller becomes the parent of the respective chosen model
+	//If any of the outputs are feet, call the FootChosen function on the hand,
+	//disable the FootMovement script, and set the controller model to inactive
 	public void ChangeParent() {
 		firstOutDropResult.transform.parent = firstInpDropResult.transform;
 		secondOutDropResult.transform.parent = secondInpDropResult.transform;
@@ -27,6 +29,7 @@ public class StartClicked : InputOuput {
 		start_menu.SetActive (false);
 	}
 
+	//Set the arm corresponding to the given foot to inactive 
 	public void FootChosen(GameObject correspondingArm){
 		correspondingArm.SetActive (false);
 	}    
