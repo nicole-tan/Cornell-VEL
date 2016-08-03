@@ -1,4 +1,5 @@
 # Cornell Virtual Embodiment Lab
+Using Unity and C#, the following repository contains Unity and C# scripts that allow for accurate tracking and recording of the HTC Vive's head mounting device as well as the left and right controllers, outputted into a CSV file. Also, the user is able to see full arm movements due to a rigged and textured arm mesh from Maya and inverse kinematics that guess approximately where the elbow and shoulder's location and rotation will be based off of the hand's location and rotation. 
 
 ##Tracking
 The tracking section uses Unity and C# scripts to create three CSV files that record the date-time stamps [to the millisecond for accuracy], position, and rotation of the HTC Vive headset as well as the left and right controllers. If the time is the same for recorded output, it will be displayed in the CSV file in the order head, left controller, right controller (the body part is also notated at the end of each recorded line).
@@ -52,7 +53,7 @@ The character's movements all correspond to a script, SteamVR_IK, that uses inve
 Due to the PickupParent script, the user can currently pick up spheres and other GameObjects from the floor by pressing down the Trigger button. They can then proceed to throw the objects with accurate velocity by flinging their arms and releasing the Trigger button. In order to reset the GameObjects to their original positions, the user can press the Touchpad button.
 
 ##GUI System
-The GUI appears only on the computer screen. It allows researchers to input an ID number as well as the input and output controllers and the percentage of gain that should appear when the participant moves. This allows researchers to very easily and intuitively manipulate what the participant perceives as their own movements in Virtual Reality. 
+The GUI appears on only the computer screen. It allows researchers to input an ID number that will save the saved file including all tracking information under a CSV file of that name. Alongside this, researchers can add in the input and output controllers from a dropdown menu [Inputs: Left and right controller; Outputs: Left Hand, Right Hand, Left Foot, Right Foot] as well as the percentage of gain that appears when the participant moves. This allows researchers to very easily and intuitively manipulate what the participant perceives as their own movements in Virtual Reality. 
 
 ###To Be Implemented
 * Recording data in columns
@@ -66,13 +67,13 @@ The GUI appears only on the computer screen. It allows researchers to input an I
 * Customizable keypresses 
 * High fidelity - networked second life VR spinoff
 * Create customizable avatars and characters in VR
-* Adding in new room dimensions and look 
-* Perfecting the hand movements
 * Scaling the human avatar with that shown on the screen --> Script according to the headset distance from floor
-* Prevention of unnatural hand movements 
+* Perfecting hand movements by preventing unnatural hand movements 
 * Model the surrounding room 
 * Create a GUI that allows users to add ID in, input1 -> output 1 -> percentage...input4 -> output4 -> percentage where percentages are gain [amount of movement], speed, and/or accuracy
 * Balloon popping target practice game
+* Dart practice game
+* Team building activity where two people hold controllers and the average of their movements is what is shown on the screen
 
 
 ###Helpful Links
