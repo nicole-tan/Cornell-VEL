@@ -18,6 +18,7 @@ public class StartClicked : InputOuput {
 			leftFoot.GetComponent<FootMovement> ().enabled = false;
 			leftModel.SetActive (false); 
 			leftFoot.transform.position = leftModel.transform.position;
+			leftFoot.transform.eulerAngles = new Vector3 (90, 180, leftModel.transform.eulerAngles.z);
 		}
 
 		if (firstOutDropResult == rightFoot || secondOutDropResult == rightFoot) {
