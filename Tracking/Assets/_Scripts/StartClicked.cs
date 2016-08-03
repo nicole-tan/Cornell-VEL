@@ -6,9 +6,11 @@ public class StartClicked : InputOuput {
 	public GameObject leftModel;
 	public GameObject rightModel; 
 
+
+
 	//The chosen controller becomes the parent of the respective chosen model
 	//If any of the outputs are feet, call the FootChosen function on the hand,
-	//disable the FootMovement script, and set the controller model to inactive
+	//disable the FootMovement script, and set the controller model to inactive 
 	public void ChangeParent() {
 		firstOutDropResult.transform.parent = firstInpDropResult.transform;
 		secondOutDropResult.transform.parent = secondInpDropResult.transform;
@@ -17,8 +19,10 @@ public class StartClicked : InputOuput {
 			FootChosen (leftHand);
 			leftFoot.GetComponent<FootMovement> ().enabled = false;
 			leftModel.SetActive (false); 
-			leftFoot.transform.position = leftModel.transform.position;
+
+			leftFoot.transform.position = leftModel.transform.position;  
 			leftFoot.transform.eulerAngles = new Vector3 (90, 180, leftModel.transform.eulerAngles.z);
+
 		}
 
 		if (firstOutDropResult == rightFoot || secondOutDropResult == rightFoot) {
@@ -26,7 +30,7 @@ public class StartClicked : InputOuput {
 			rightFoot.GetComponent<FootMovement> ().enabled = false;
 			rightModel.SetActive (false); 
 
-			rightFoot.transform.position = rightModel.transform.position; 
+			rightFoot.transform.position = rightModel.transform.position;
 			rightFoot.transform.eulerAngles = new Vector3 (90, 180, rightModel.transform.eulerAngles.z); 
 		} 
 
