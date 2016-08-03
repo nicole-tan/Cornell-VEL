@@ -1,4 +1,5 @@
 # Cornell Virtual Embodiment Lab
+Using Unity and C#, the following repository contains Unity and C# scripts that allow for accurate tracking and recording of the HTC Vive's head mounting device as well as the left and right controllers, outputted into a CSV file. Also, the user is able to see full arm movements due to a rigged and textured arm mesh from Maya and inverse kinematics that guess approximately where the elbow and shoulder's location and rotation will be based off of the hand's location and rotation. 
 
 ##Tracking
 The tracking section uses Unity and C# scripts to create three CSV files that record the date-time stamps [to the millisecond for accuracy], position, and rotation of the HTC Vive headset as well as the left and right controllers. If the time is the same for recorded output, it will be displayed in the CSV file in the order head, left controller, right controller (the body part is also notated at the end of each recorded line).
