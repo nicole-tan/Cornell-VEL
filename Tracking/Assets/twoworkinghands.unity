@@ -6418,6 +6418,10 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: Left Hand
       m_Image: {fileID: 0}
+    - m_Text: Left Foot
+      m_Image: {fileID: 0}
+    - m_Text: Right Foot
+      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7863,6 +7867,8 @@ MonoBehaviour:
   leftHand: {fileID: 1748594243}
   rightController: {fileID: 1110379729}
   rightHand: {fileID: 1553400021}
+  leftFoot: {fileID: 0}
+  rightFoot: {fileID: 0}
 --- !u!4 &1697261568 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400014, guid: a75b261dc616be349b1ba6951d4ec42c, type: 3}
@@ -8607,6 +8613,10 @@ MonoBehaviour:
     - m_Text: Left Hand
       m_Image: {fileID: 0}
     - m_Text: Right Hand
+      m_Image: {fileID: 0}
+    - m_Text: Left Foot
+      m_Image: {fileID: 0}
+    - m_Text: Right Foot
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
