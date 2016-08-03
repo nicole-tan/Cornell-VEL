@@ -7867,8 +7867,8 @@ MonoBehaviour:
   leftHand: {fileID: 1748594243}
   rightController: {fileID: 1110379729}
   rightHand: {fileID: 1553400021}
-  leftFoot: {fileID: 0}
-  rightFoot: {fileID: 0}
+  leftFoot: {fileID: 513847338}
+  rightFoot: {fileID: 975480042}
 --- !u!4 &1697261568 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400014, guid: a75b261dc616be349b1ba6951d4ec42c, type: 3}
