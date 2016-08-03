@@ -25,7 +25,9 @@ public class StartClicked : InputOuput {
 			FootChosen (rightHand); 
 			rightFoot.GetComponent<FootMovement> ().enabled = false;
 			rightModel.SetActive (false); 
+
 			rightFoot.transform.position = rightModel.transform.position; 
+			rightFoot.transform.eulerAngles = new Vector3 (90, 180, rightModel.transform.eulerAngles.z); 
 		} 
 
 		start_menu = GameObject.Find ("/StartMenu");
