@@ -9,12 +9,12 @@ public class StartClicked : InputOuput {
 		firstOutDropResult.transform.parent = firstInpDropResult.transform;
 		secondOutDropResult.transform.parent = secondInpDropResult.transform;
 
-		if (firstOutDropResult == leftFoot) {
+		if (firstOutDropResult == leftFoot || secondOutDropResult == leftFoot) {
 			FootChosen (leftHand);
 			leftFoot.GetComponent<FootMovement> ().enabled = false;
 		}
 
-		if (firstOutDropResult == rightFoot) {
+		if (firstOutDropResult == rightFoot || secondOutDropResult == rightFoot) {
 			FootChosen (rightHand); 
 			rightFoot.GetComponent<FootMovement> ().enabled = false;
 		} 
@@ -25,5 +25,5 @@ public class StartClicked : InputOuput {
 
 	public void FootChosen(GameObject correspondingArm){
 		correspondingArm.SetActive (false);
-	}	
+	}    
 }
