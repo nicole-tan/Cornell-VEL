@@ -17,12 +17,14 @@ public class StartClicked : InputOuput {
 			FootChosen (leftHand);
 			leftFoot.GetComponent<FootMovement> ().enabled = false;
 			leftModel.SetActive (false); 
+			leftFoot.transform.position = leftModel.transform.position;
 		}
 
 		if (firstOutDropResult == rightFoot || secondOutDropResult == rightFoot) {
 			FootChosen (rightHand); 
 			rightFoot.GetComponent<FootMovement> ().enabled = false;
 			rightModel.SetActive (false); 
+			rightFoot.transform.position = rightModel.transform.position; 
 		} 
 
 		start_menu = GameObject.Find ("/StartMenu");
