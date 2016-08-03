@@ -34,6 +34,22 @@ public class StartClicked : InputOuput {
 			rightFoot.transform.eulerAngles = new Vector3 (90, 180, rightModel.transform.eulerAngles.z); 
 		} 
 
+		//One controller is controlling two objects
+		if (firstInpDropResult == secondInpDropResult) {
+			//Left controller is controlling the right hand, so right hand has to be transformed to correct position initially
+			if (firstInpDropResult == leftController) {
+				//has to be moved back in the z-axis shift forward and then shift right
+				rightHand.transform.position = new Vector3 (rightModel.transform.position.x + 0.1f, rightModel.transform.position.y, rightModel.transform.position.z + 0.5f); 
+			} 
+
+			//must be rightController controlling both, so left hand has to be transformed to the correct initial position
+			else {
+				leftHand.transform.position = leftModel.transform.position; 
+			}
+		}
+
+
+
 		start_menu = GameObject.Find ("/StartMenu");
 		start_menu.SetActive (false);
 	}
