@@ -3,22 +3,27 @@ using System.Collections;
 using UnityEngine.UI; 
 
 public class StoreGain : MonoBehaviour {
-	public string percentage1; 
-	public string percentage2; 
+	protected string percentage1; 
+	protected string percentage2; 
+	public float gain1; 
+	public float gain2; 
 
-	void Awake() {
-		percentage1 = "1.0f";
-		percentage2 = "1.0f"; 
-	}
-
-	public void RecordGain(string inputValue) {
-		if (this.name == "PercentageInput1") {
+	public void RecordGain1(string inputValue) {
+		Debug.Log ("in recordgain1"); 
+		Debug.Log (inputValue); 
 			percentage1 = inputValue; 
-		} 
+		Debug.Log (percentage1); 
+	} 
 
-		else {
-			percentage2 = inputValue; 
-		}
+	public void RecordGain2(string inputValue) {
+		Debug.Log ("in recordgain2");
+		percentage2 = inputValue; 
+		Debug.Log (inputValue); 
+	} 
 
+	public void ConvertGain() {
+		gain1 = float.Parse (percentage1);
+		gain2 = float.Parse (percentage2); 
+	
 	} 
 }
