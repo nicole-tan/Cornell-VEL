@@ -90,6 +90,7 @@
      <Compile Include="Assets\_Scripts\Events.cs" />
      <Compile Include="Assets\_Scripts\FootControllers.cs" />
      <Compile Include="Assets\_Scripts\FootMovement.cs" />
+     <Compile Include="Assets\_Scripts\Gain.cs" />
      <Compile Include="Assets\_Scripts\HandMovements.cs" />
      <Compile Include="Assets\_Scripts\HeadController.cs" />
      <Compile Include="Assets\_Scripts\InputOutput.cs" />
