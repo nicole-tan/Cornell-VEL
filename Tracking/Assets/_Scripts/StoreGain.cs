@@ -8,11 +8,6 @@ public class StoreGain : MonoBehaviour {
 	public float gain1; 
 	public float gain2; 
 
-	void Awake () {
-		gain1 = 1.0f;
-		gain2 = 1.0f; 
-	} 
-
 	public void RecordGain1(string inputValue) {
 			percentage1 = inputValue; 
 	} 
