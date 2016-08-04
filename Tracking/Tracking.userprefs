@@ -1,16 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\StoreGain.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\StartClicked.cs">
     <Files>
-      <File FileName="Assets\_Scripts\StoreGain.cs" Line="27" Column="2" />
-      <File FileName="Assets\_Scripts\Gain.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\InputOutput.cs" Line="133" Column="36" />
-      <File FileName="Assets\_Scripts\Scaling.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets\_Scripts\StartClicked.cs" Line="22" Column="4" />
+      <File FileName="Assets\_Scripts\StoreGain.cs" Line="21" Column="29" />
+      <File FileName="Assets\_Scripts\Gain.cs" Line="30" Column="1" />
+      <File FileName="Assets\_Scripts\InputOutput.cs" Line="14" Column="31" />
+      <File FileName="Assets\_Scripts\Scaling.cs" Line="22" Column="1" NotebookId="1" />
       <File FileName="Assets\_Scripts\FootMovement.cs" Line="1" Column="1" NotebookId="1" />
       <File FileName="Assets\_Scripts\HandMovements.cs" Line="1" Column="1" NotebookId="1" />
       <File FileName="Assets\_Scripts\FootControllers.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets\_Scripts\StartClicked.cs" Line="15" Column="22" NotebookId="1" />
-      <File FileName="Assets\_Scripts\StartGain.cs" Line="17" Column="1" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
