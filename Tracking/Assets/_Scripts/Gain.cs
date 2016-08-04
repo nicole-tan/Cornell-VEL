@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Gain : MonoBehaviour {
+public class Gain : InputOuput {
 
 	// Use this for initialization
 	void Start () {
@@ -10,6 +10,6 @@ public class Gain : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		
 	}
 }

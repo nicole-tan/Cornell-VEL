@@ -103,6 +103,7 @@
      <Compile Include="Assets\_Scripts\ShoulderConstraints.cs" />
      <Compile Include="Assets\_Scripts\SimpleSmoothMouseLook.cs" />
      <Compile Include="Assets\_Scripts\StartClicked.cs" />
+     <Compile Include="Assets\_Scripts\StoreGain.cs" />
      <Compile Include="Assets\_Scripts\UserController.cs" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
      <None Include="Assets\IK\Readme.txt" />
