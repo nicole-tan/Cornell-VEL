@@ -1,19 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\VisibleGain.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\Gain.cs">
     <Files>
-      <File FileName="Assets\_Scripts\VisibleGain.cs" Line="8" Column="1" />
+      <File FileName="Assets\_Scripts\VisibleGain.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\DotProductGain.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\StartClicked.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\StoreGain.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\InputOutput.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\RightController.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\RightDebug.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\Gain.cs" Line="35" Column="1" NotebookId="1" />
+      <File FileName="Assets\_Scripts\Gain.cs" Line="32" Column="3" NotebookId="1" />
       <File FileName="Assets\_Scripts\Scaling.cs" Line="1" Column="1" NotebookId="1" />
       <File FileName="Assets\_Scripts\FootMovement.cs" Line="1" Column="1" NotebookId="1" />
       <File FileName="Assets\_Scripts\HandMovements.cs" Line="1" Column="1" NotebookId="1" />
       <File FileName="Assets\_Scripts\FootControllers.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets\_Scripts\StoreGain.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets\_Scripts\DotProductGain.cs" Line="21" Column="62" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
