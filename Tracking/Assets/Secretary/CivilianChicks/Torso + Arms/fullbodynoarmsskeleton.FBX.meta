@@ -48,6 +48,18 @@ ModelImporter:
     100080: R_LWR_Leg
     100082: R_Toe
     100084: R_UPR_Leg
+    100086: group2
+    100088: joint10
+    100090: joint11
+    100092: joint12
+    100094: joint13
+    100096: joint14
+    100098: joint15
+    100100: joint16
+    100102: joint17
+    100104: joint18
+    100106: joint19
+    100108: joint9
     400000: c06_bottom
     400002: c06_top
     400004: fb01
@@ -91,6 +103,18 @@ ModelImporter:
     400080: R_LWR_Leg
     400082: R_Toe
     400084: R_UPR_Leg
+    400086: group2
+    400088: joint10
+    400090: joint11
+    400092: joint12
+    400094: joint13
+    400096: joint14
+    400098: joint15
+    400100: joint16
+    400102: joint17
+    400104: joint18
+    400106: joint19
+    400108: joint9
     2300000: fb05
     2300002: hair13
     3300000: fb05
@@ -117,6 +141,7 @@ ModelImporter:
     4300038: hair16
     4300040: hair08
     4300042: hair07
+    4300044: c06_top
     9500000: //RootNode
     13700000: c06_bottom
     13700002: fb01
@@ -138,6 +163,9 @@ ModelImporter:
     13700034: hair14
     13700036: hair15
     13700038: hair16
+    13700040: c06_top
+    13700042: fb05
+    13700044: hair13
   materials:
     importMaterials: 1
     materialName: 0
