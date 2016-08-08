@@ -84,7 +84,7 @@
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
-     <Compile Include="Assets\_Scripts\AvatarMovement.cs" />
+     <Compile Include="Assets\_Scripts\BodyMovements.cs" />
      <Compile Include="Assets\_Scripts\Controller.cs" />
      <Compile Include="Assets\_Scripts\DialogueBox.cs" />
      <Compile Include="Assets\_Scripts\DotProductGain.cs" />
@@ -102,8 +102,6 @@
      <Compile Include="Assets\_Scripts\RightDebug.cs" />
      <Compile Include="Assets\_Scripts\RigidbodyFPSWalker.cs" />
      <Compile Include="Assets\_Scripts\Scaling.cs" />
-     <Compile Include="Assets\_Scripts\ShoulderConstraints.cs" />
-     <Compile Include="Assets\_Scripts\SimpleSmoothMouseLook.cs" />
      <Compile Include="Assets\_Scripts\StartClicked.cs" />
      <Compile Include="Assets\_Scripts\StoreGain.cs" />
      <Compile Include="Assets\_Scripts\UserController.cs" />
