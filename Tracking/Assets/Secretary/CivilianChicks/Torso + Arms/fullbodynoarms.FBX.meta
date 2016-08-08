@@ -149,6 +149,7 @@ ModelImporter:
     4300042: fb05
     4300044: hair13
     9500000: //RootNode
+    13700000: c06_bottom
   materials:
     importMaterials: 1
     materialName: 0
