@@ -19,7 +19,7 @@ public class VisibleGain : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		controllerMovedLocation = controller.transform.position;
-		var angle = Vector3.Angle (controllerLocation, controllerMovedLocation);
+		var angle = 2 * Vector3.Angle (controllerLocation, controllerMovedLocation);
 		//var convertToRadians = angle * Mathf.PI / 180; 
 		Vector3 newVector = controllerMovedLocation * Mathf.Cos (angle);
 		visibleObject.transform.position = newVector; 
