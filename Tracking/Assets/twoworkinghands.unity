@@ -1029,7 +1029,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &346113067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9380,11 +9380,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400020, guid: 60fce760aef0ac4448a8adac26659a5a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.551
+      value: 0.54225
       objectReference: {fileID: 0}
     - target: {fileID: 400020, guid: 60fce760aef0ac4448a8adac26659a5a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.040671587
+      value: 0.1059
       objectReference: {fileID: 0}
     - target: {fileID: 400020, guid: 60fce760aef0ac4448a8adac26659a5a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9432,15 +9432,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400020, guid: 60fce760aef0ac4448a8adac26659a5a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.0388038
+      value: 1.142684
       objectReference: {fileID: 0}
     - target: {fileID: 400020, guid: 60fce760aef0ac4448a8adac26659a5a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.0388043
+      value: 1.142684
       objectReference: {fileID: 0}
     - target: {fileID: 400020, guid: 60fce760aef0ac4448a8adac26659a5a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.0388043
+      value: 1.142684
       objectReference: {fileID: 0}
     - target: {fileID: 400020, guid: 60fce760aef0ac4448a8adac26659a5a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9476,7 +9476,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 60fce760aef0ac4448a8adac26659a5a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 60fce760aef0ac4448a8adac26659a5a, type: 3}

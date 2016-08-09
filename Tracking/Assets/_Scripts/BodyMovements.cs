@@ -11,7 +11,7 @@ public class BodyMovements : MonoBehaviour {
 		setPosition (); 
 		initPosition = headset.transform.position; 
 		//transform.rotation = headset.transform.rotation;
-		//initRotation = headset.transform.eulerAngles;
+		initRotation = headset.transform.eulerAngles;
 	
 	}
 	
@@ -27,7 +27,7 @@ public class BodyMovements : MonoBehaviour {
 		var headsetZ = headset.transform.position.z; 
 
 
-		transform.position = new Vector3 (headsetX, initPosition.y + 1.0f, headsetZ);
+		transform.position = new Vector3 (headsetX + 0.1f, initPosition.y + 0.8f, headsetZ);
 		//transform.position = new Vector3 (initPosition.x, headsetY, headsetZ);
 		//transform.position = new Vector3 (headsetX, initPosition.y + 0.5f, headsetZ);
 
