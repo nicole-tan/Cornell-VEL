@@ -52,6 +52,12 @@ ModelImporter:
     100088: R_Wrist
     100090: Top_Neck
     100092: Top_Neck 1
+    100094: Bottom_Neck2
+    100096: L_LowerForearm
+    100098: L_UpperForearm
+    100100: R_RowerForearm
+    100102: R_UpperForearm
+    100104: Top_Neck 2
     400000: Bottom_Neck
     400002: Bottom_Neck1
     400004: c06_bottom
@@ -99,6 +105,12 @@ ModelImporter:
     400088: R_Wrist
     400090: Top_Neck
     400092: Top_Neck 1
+    400094: Bottom_Neck2
+    400096: L_LowerForearm
+    400098: L_UpperForearm
+    400100: R_RowerForearm
+    400102: R_UpperForearm
+    400104: Top_Neck 2
     4300000: hair07
     4300002: hair08
     4300004: hair16
