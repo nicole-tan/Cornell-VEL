@@ -6,19 +6,22 @@ public class MimicHand : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		followPosition ();
+		transform.parent = followedObject.transform;
+		//followPosition ();
+		//transform.rotation = followedObject.transform.rotation; 
+
 		//followRotation (); 
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		followPosition ();
-		//Debug.Log ("Left hand position is: " + transform.position);
+		//followPosition ();
 		//followRotation (); 
 	}
 
 	void followPosition() {
 		transform.position = followedObject.transform.position; 
+		//transform.parent = followedObject.transform;
 	}
 
 	void followRotation() {
