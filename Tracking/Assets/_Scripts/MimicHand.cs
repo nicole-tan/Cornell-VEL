@@ -7,7 +7,7 @@ public class MimicHand : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		transform.parent = followedObject.transform;
-		//followPosition ();
+		followPosition ();
 		//transform.rotation = followedObject.transform.rotation; 
 
 		//followRotation (); 
@@ -15,7 +15,7 @@ public class MimicHand : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//followPosition ();
+		followPosition ();
 		//followRotation (); 
 	}
 
