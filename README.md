@@ -55,6 +55,9 @@ Due to the PickupParent script, the user can currently pick up spheres and other
 ##GUI System
 The GUI appears on only the computer screen. It allows researchers to input an ID number that will save the saved file including all tracking information under a CSV file of that name. Alongside this, researchers can add in the input and output controllers from a dropdown menu [Inputs: Left and right controller; Outputs: Left Hand, Right Hand, Left Foot, Right Foot] as well as the percentage of gain that appears when the participant moves. This allows researchers to very easily and intuitively manipulate what the participant perceives as their own movements in Virtual Reality. The percentage of gain is the amount of movement shown on screen for the amount of movement the participant actually does. 
 
+##Avatar Substitution
+The module is currently being updated to allow for an easy switch between avatars from the Unity Asset store. This involves using a 'ghost' Inverse Kinematics arm which controls the movements of the arms of the avatars that the user can see. Because there is a ghost arm present, the proper parenting that will allow for controller control of arm movements can be implemented. 
+
 ###To Be Implemented
 * Recording data in columns
 * Kill fixed update --> judder change?
@@ -70,10 +73,11 @@ The GUI appears on only the computer screen. It allows researchers to input an I
 * Scaling the human avatar with that shown on the screen --> Script according to the headset distance from floor
 * Perfecting hand movements by preventing unnatural hand movements 
 * Model the surrounding room 
-* Create a GUI that allows users to add ID in, input1 -> output 1 -> percentage...input4 -> output4 -> percentage where percentages are gain [amount of movement], speed, and/or accuracy
+* Gain
 * Balloon popping target practice game
 * Dart practice game
 * Team building activity where two people hold controllers and the average of their movements is what is shown on the screen
+* Pit Demo
 
 
 ###Helpful Links
