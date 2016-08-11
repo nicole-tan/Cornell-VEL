@@ -5,8 +5,13 @@ using System.Collections.Generic;
 public class DuplicateSelf : MonoBehaviour {
 	public GameObject bubble;
 	public GameObject plane; 
-	public float lifetime = 5.0f; 
+	//time the bubble is visible 
+	public float lifetime = 10.0f; 
 	public int numBubbles = 5; 
+	public float planeX;
+	public float planeY;
+	public float planeZ; 
+	public float bubbleDimensions;
 
 
 	// Use this for initialization
@@ -23,19 +28,22 @@ public class DuplicateSelf : MonoBehaviour {
 	}
 
 
-	//Creates a Vector3 with random coordinates within the limitations of the plane 
+	//Creates a Vector3 with random coordinates within the limitations of the plane .
 	Vector3 createRandomPos() {
-		float randomX = Random.Range (plane.transform.position.x - plane.transform.localScale.x/2, plane.transform.position.x + plane.transform.localScale.x/2);
-		float randomY = Random.Range (plane.transform.position.y - plane.transform.localScale.y/2, plane.transform.position.y + plane.transform.localScale.y/2);
+		//float randomY = Random.Range (plane.transform.position.y - plane.transform.localScale.y/2, plane.transform.position.y + plane.transform.localScale.y/2);
+		float randomY = Random.Range (0, 5.0f);
 		float randomZ = Random.Range (plane.transform.position.z - plane.transform.localScale.z/2, plane.transform.position.z + plane.transform.localScale.z/2);
-		return new Vector3 (randomX, randomY, randomZ); 
+		return new Vector3 (0.972f, randomY, randomZ); 
 	} 
 
+	//Creates a Vector3 that gives a random bubble size from 0.09 to 0.30.
 	Vector3 createRandomSize() {
 		float randomSize = Random.Range (0.09f, 0.30f); 
 		return new Vector3 (randomSize, randomSize, randomSize); 
 	}
 
+	//Creates the number of bubbles indicated by numBubbles with a random position and size as well as the "bubble" tag. The object
+	//created is destroyed after 'lifetime' number of seconds. 
 	void createNewBubbles() {
 		for (var i = 0; i < numBubbles; i++) {
 			GameObject newObj = (GameObject) Instantiate (bubble, createRandomPos(), Quaternion.identity);
