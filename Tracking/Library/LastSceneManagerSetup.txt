@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/feetinversekinematics.unity
+- path: Assets/targettest.unity
   isLoaded: 1
   isActive: 1

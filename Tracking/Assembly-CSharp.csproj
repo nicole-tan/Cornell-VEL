@@ -107,6 +107,7 @@
      <Compile Include="Assets\_Scripts\StoreGain.cs" />
      <Compile Include="Assets\_Scripts\UserController.cs" />
      <Compile Include="Assets\_Scripts\VisibleGain.cs" />
+     <None Include="Assets\bubble\Bubble.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
      <None Include="Assets\IK\Readme.txt" />
      <None Include="Assets\SteamVR\Resources\SteamVR_BlitFlip.shader" />

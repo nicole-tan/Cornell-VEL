@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\IK\Scripts\ik\IKControl.js" />
      <Compile Include="Assets\IK\Scripts\ik\Old Scripts (Outdated)\ikLimb.js" />
+     <None Include="Assets\bubble\Bubble.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
      <None Include="Assets\IK\Readme.txt" />
      <None Include="Assets\SteamVR\Resources\SteamVR_BlitFlip.shader" />
