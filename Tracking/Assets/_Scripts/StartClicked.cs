@@ -8,6 +8,7 @@ public class StartClicked : InputOuput {
 
 
 
+
 	//The chosen controller becomes the parent of the respective chosen model
 	//If any of the outputs are feet, call the FootChosen function on the hand,
 	//disable the FootMovement script, and set the controller model to inactive 
@@ -42,4 +43,9 @@ public class StartClicked : InputOuput {
 	public void FootChosen(GameObject correspondingArm){
 		correspondingArm.SetActive (false);
 	}    
+
+	public void UpdateTimeVisible() {
+		DuplicateSelf dupself = this.GetComponent<DuplicateSelf> (); 
+		//dupself.lifetime; 
+	}
 }

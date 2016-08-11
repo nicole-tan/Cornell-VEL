@@ -1,19 +1,18 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\TargetTask\PopBubble.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\TargetTask\DuplicateSelf.cs">
     <Files>
+      <File FileName="Assets\_Scripts\TargetTask\DuplicateSelf.cs" Line="17" Column="49" />
       <File FileName="Assets\_Scripts\PickupParent.cs" Line="28" Column="16" />
-      <File FileName="Assets\_Scripts\TargetTask\DuplicateSelf.cs" Line="14" Column="27" />
       <File FileName="Assets\_Scripts\TargetTask\BubbleEffect.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\MimicHand.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\StartClicked.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\FootMovement.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\InputOutput.cs" Line="1" Column="1" />
-      <File FileName="Assets\SteamVR\Scripts\SteamVR_ControllerManager.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\VisibleGain.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\BodyMovements.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\RightFootTransform.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\TargetTask\PopBubble.cs" Line="6" Column="32" NotebookId="1" />
+      <File FileName="Assets\_Scripts\StartClicked.cs" Line="38" Column="47" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
