@@ -1,7 +1,7 @@
 # Cornell Virtual Embodiment Lab
 Using Unity and C#, the following repository contains Unity and C# scripts that allow for accurate tracking and recording of the HTC Vive's head mounting device as well as the left and right controllers, outputted into a CSV file. Also, the user is able to see full arm movements due to a rigged and textured arm mesh from Maya and inverse kinematics that guess approximately where the elbow and shoulder's location and rotation will be based off of the hand's location and rotation. There is also a GUI that allows users to customize which controllers can control which parts of the body: for example, the left controller could control the right foot's movements with 20% gain. 
 
-##Tracking
+##Tracking [Scenes: kyle_scene and currscene]
 The tracking section uses Unity and C# scripts to create three CSV files that record the date-time stamps [to the millisecond for accuracy], position, and rotation of the HTC Vive headset as well as the left and right controllers. If the time is the same for recorded output, it will be displayed in the CSV file in the order head, left controller, right controller (the body part is also notated at the end of each recorded line).
 
 ###General 
@@ -40,7 +40,7 @@ Events are recorded by pressing down the 'E' key. This records down the timestam
       Yaw 5x <br />
       Roll 5x 
 
-##Character
+##Character [Scenes: twoworkinghands and feetinversekinematics]
 The given character [secretary] is an imported model from Unity's free assets. The head and bodily motions of the headset and controllers are accurately reflected in the first person movements of the character. A mirror is set up in the scene in order to better debug movements. 
 
 ###Character Progress
@@ -52,11 +52,15 @@ The character's movements all correspond to a script, SteamVR_IK, that uses inve
 ###Character Functionality
 Due to the PickupParent script, the user can currently pick up spheres and other GameObjects from the floor by pressing down the Trigger button. They can then proceed to throw the objects with accurate velocity by flinging their arms and releasing the Trigger button. In order to reset the GameObjects to their original positions, the user can press the Touchpad button.
 
-##GUI System
+##GUI System [Scenes: twoworkinghands and feetinversekinematics]
 The GUI appears on only the computer screen. It allows researchers to input an ID number that will save the saved file including all tracking information under a CSV file of that name. Alongside this, researchers can add in the input and output controllers from a dropdown menu [Inputs: Left and right controller; Outputs: Left Hand, Right Hand, Left Foot, Right Foot] as well as the percentage of gain that appears when the participant moves. This allows researchers to very easily and intuitively manipulate what the participant perceives as their own movements in Virtual Reality. The percentage of gain is the amount of movement shown on screen for the amount of movement the participant actually does. 
 
 ##Avatar Substitution
 The module is currently being updated to allow for an easy switch between avatars from the Unity Asset store. This involves using a 'ghost' Inverse Kinematics arm which controls the movements of the arms of the avatars that the user can see. Because there is a ghost arm present, the proper parenting that will allow for controller control of arm movements can be implemented. 
+
+##Target Test Game [Scene: targettest]
+The target task uses the working arms with inverse kinematics as well as the detached feet. There is a vertical plane upon which bubbles randomly spawn and the player can, upon contact with the bubbles, pop them. To be implemented is a GUI system that will allow the user to adjust the dimensions of the plane and balloons, the duration for which bubbles are visible, and the number of balloons that spawn. 
+
 
 ###To Be Implemented
 * Recording data in columns
