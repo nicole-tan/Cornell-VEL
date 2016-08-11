@@ -59,6 +59,7 @@ The GUI appears on only the computer screen. It allows researchers to input an I
 The module is currently being updated to allow for an easy switch between avatars from the Unity Asset store. This involves using a 'ghost' Inverse Kinematics arm which controls the movements of the arms of the avatars that the user can see. Because there is a ghost arm present, the proper parenting that will allow for controller control of arm movements can be implemented. 
 
 ##Target Test Game [Scene: targettest]
+The target task uses the working arms with inverse kinematics as well as the detached feet. There is a vertical plane upon which bubbles randomly spawn and the player can, upon contact with the bubbles, pop them. To be implemented is a GUI system that will allow the user to adjust the dimensions of the plane and balloons, the duration for which bubbles are visible, and the number of balloons that spawn. 
 
 
 ###To Be Implemented
