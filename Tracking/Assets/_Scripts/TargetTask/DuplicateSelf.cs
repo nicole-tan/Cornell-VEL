@@ -10,8 +10,8 @@ public class DuplicateSelf : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		for (int i = 0; i < 10; i++) {
-			var newObj = Instantiate (bubble, createRandomPos(), Quaternion.identity);
-
+			GameObject newObj = (GameObject) Instantiate (bubble, createRandomPos(), Quaternion.identity);
+			newObj.tag = "bubble"; 
 		}
 	}
 	

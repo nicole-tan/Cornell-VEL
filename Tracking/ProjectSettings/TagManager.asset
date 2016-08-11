@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - CollideObject
+  - bubble
   layers:
   - Default
   - TransparentFX
