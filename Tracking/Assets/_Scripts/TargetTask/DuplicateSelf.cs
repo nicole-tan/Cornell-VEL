@@ -15,7 +15,7 @@ public class DuplicateSelf : MonoBehaviour {
 			GameObject newObj = (GameObject) Instantiate (bubble, createRandomPos(), Quaternion.identity);
 			newObj.tag = "bubble"; 
 			newObj.GetComponent<Rigidbody> ().useGravity = false; 
-			//newObj.transform.localScale = createRandomSize ();
+			newObj.transform.localScale = createRandomSize ();
 			Destroy (newObj, lifetime);
 
 			InvokeRepeating ("createNewBubbles", 2, 5);
@@ -32,7 +32,7 @@ public class DuplicateSelf : MonoBehaviour {
 	} 
 
 	Vector3 createRandomSize() {
-		float randomSize = Random.Range (0.09f, 0.60f); 
+		float randomSize = Random.Range (0.09f, 0.30f); 
 		return new Vector3 (randomSize, randomSize, randomSize); 
 	}
 
@@ -41,6 +41,7 @@ public class DuplicateSelf : MonoBehaviour {
 			GameObject newObj = (GameObject) Instantiate (bubble, createRandomPos(), Quaternion.identity);
 			newObj.tag = "bubble"; 
 			newObj.GetComponent<Rigidbody> ().useGravity = false; 
+			newObj.transform.localScale = createRandomSize ();
 			Destroy (newObj, lifetime);
 		} 
 	}
