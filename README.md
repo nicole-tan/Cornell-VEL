@@ -78,10 +78,8 @@ The target task uses the working arms with inverse kinematics as well as the det
 * Perfecting hand movements by preventing unnatural hand movements 
 * Model the surrounding room 
 * Gain
-* Balloon popping target practice game
 * Dart practice game
 * Team building activity where two people hold controllers and the average of their movements is what is shown on the screen
-* Pit Demo
 
 
 ###Helpful Links
