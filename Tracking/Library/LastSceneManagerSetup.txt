@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/pitdemo.unity
+- path: Assets/Scenes/targettest.unity
   isLoaded: 1
   isActive: 1

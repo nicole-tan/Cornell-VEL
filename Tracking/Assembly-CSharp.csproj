@@ -99,6 +99,7 @@
      <Compile Include="Assets\_Scripts\MimicHand.cs" />
      <Compile Include="Assets\_Scripts\PickupParent.cs" />
      <Compile Include="Assets\_Scripts\PitDemo\GravityOn.cs" />
+     <Compile Include="Assets\_Scripts\PitDemo\LeftFootPlank.cs" />
      <Compile Include="Assets\_Scripts\RightController.cs" />
      <Compile Include="Assets\_Scripts\RightDebug.cs" />
      <Compile Include="Assets\_Scripts\RightFootTransform.cs" />

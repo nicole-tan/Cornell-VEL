@@ -31,8 +31,8 @@ public class DuplicateSelf : MonoBehaviour {
 	//Creates a Vector3 with random coordinates within the limitations of the plane .
 	Vector3 createRandomPos() {
 		//float randomY = Random.Range (plane.transform.position.y - plane.transform.localScale.y/2, plane.transform.position.y + plane.transform.localScale.y/2);
-		float randomY = Random.Range (0, 5.0f);
-		float randomZ = Random.Range (plane.transform.position.z - plane.transform.localScale.z/2, plane.transform.position.z + plane.transform.localScale.z/2);
+		float randomY = Random.Range (0.3f, 2.0f);
+		float randomZ = Random.Range (-2.8f, -0.7f);
 		return new Vector3 (0.972f, randomY, randomZ); 
 	} 
 
