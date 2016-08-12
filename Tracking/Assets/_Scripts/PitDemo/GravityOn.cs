@@ -10,7 +10,8 @@ public class GravityOn : MonoBehaviour {
 
 	public void EventPress () {
 		if (Input.GetKeyDown (KeyCode.Mouse0)) {
-			Debug.Log ("is it working now");
+			Debug.Log ("left mouse click!"); 
+			GetComponent<Rigidbody> ().useGravity = true; 
 		}
 	}
 }
