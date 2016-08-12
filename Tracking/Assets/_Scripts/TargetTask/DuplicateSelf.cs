@@ -6,12 +6,13 @@ public class DuplicateSelf : MonoBehaviour {
 	public GameObject bubble;
 	public GameObject plane; 
 	//time the bubble is visible 
-	public float lifetime = 10.0f; 
-	public int numBubbles = 5; 
+	public float lifetime = 20.0f; 
+	public int numBubbles = 20; 
 	public float planeX;
 	public float planeY;
 	public float planeZ; 
 	public float bubbleDimensions;
+	List<GameObject> bubbles = new List<GameObject> (); 
 
 
 	// Use this for initialization
@@ -21,10 +22,11 @@ public class DuplicateSelf : MonoBehaviour {
 			newObj.tag = "bubble"; 
 			newObj.GetComponent<Rigidbody> ().useGravity = false; 
 			newObj.transform.localScale = createRandomSize ();
-			Destroy (newObj, lifetime);
-
-			InvokeRepeating ("createNewBubbles", 2, 5);
+			bubbles.Add (newObj); 
 		}
+
+		InvokeRepeating ("createNewBubbles", 2, 5);
+		InvokeRepeating ("removeBubbles", 10, 10);
 	}
 
 
@@ -50,8 +52,15 @@ public class DuplicateSelf : MonoBehaviour {
 			newObj.tag = "bubble"; 
 			newObj.GetComponent<Rigidbody> ().useGravity = false; 
 			newObj.transform.localScale = createRandomSize ();
-			Destroy (newObj, lifetime);
+			//Destroy (newObj, lifetime);
+			bubbles.Add (newObj); 
+			Debug.Log ("being called!");
 		} 
 	}
+
+	void removeBubbles() {
+		Destroy (bubbles [0], lifetime); 
+		bubbles.RemoveAt (0);
+	} 
 
 }
