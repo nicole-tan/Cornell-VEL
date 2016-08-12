@@ -110,6 +110,8 @@
      <Compile Include="Assets\_Scripts\TargetTask\BubbleEffect.cs" />
      <Compile Include="Assets\_Scripts\TargetTask\DuplicateSelf.cs" />
      <Compile Include="Assets\_Scripts\TargetTask\PopBubble.cs" />
+     <Compile Include="Assets\_Scripts\TargetTask\TargetInputOutput.cs" />
+     <Compile Include="Assets\_Scripts\TargetTask\TargetStartClicked.cs" />
      <Compile Include="Assets\_Scripts\UserController.cs" />
      <Compile Include="Assets\_Scripts\VisibleGain.cs" />
      <None Include="Assets\bubble\Bubble.shader" />
