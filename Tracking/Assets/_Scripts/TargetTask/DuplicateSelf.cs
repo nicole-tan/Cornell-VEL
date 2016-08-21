@@ -22,11 +22,13 @@ public class DuplicateSelf : MonoBehaviour {
 			newObj.tag = "bubble"; 
 			newObj.GetComponent<Rigidbody> ().useGravity = false; 
 			newObj.transform.localScale = createRandomSize ();
-			bubbles.Add (newObj); 
+			//bubbles.Add (newObj); 
 		}
 
+		//createNewBubbles ();
+		//yield return new WaitForSeconds (5); 
 		InvokeRepeating ("createNewBubbles", 2, 5);
-		InvokeRepeating ("removeBubbles", 10, 10);
+		//InvokeRepeating ("removeBubbles", 10, 10);
 	}
 
 
@@ -47,20 +49,20 @@ public class DuplicateSelf : MonoBehaviour {
 	//Creates the number of bubbles indicated by numBubbles with a random position and size as well as the "bubble" tag. The object
 	//created is destroyed after 'lifetime' number of seconds. 
 	void createNewBubbles() {
-		for (var i = 0; i < numBubbles; i++) {
+		for (var i = 0; i < 20; i++) {
 			GameObject newObj = (GameObject) Instantiate (bubble, createRandomPos(), Quaternion.identity);
 			newObj.tag = "bubble"; 
 			newObj.GetComponent<Rigidbody> ().useGravity = false; 
 			newObj.transform.localScale = createRandomSize ();
 			//Destroy (newObj, lifetime);
-			bubbles.Add (newObj); 
+			//bubbles.Add (newObj); 
 			Debug.Log ("being called!");
 		} 
 	}
 
-	void removeBubbles() {
-		Destroy (bubbles [0], lifetime); 
-		bubbles.RemoveAt (0);
-	} 
+	//void removeBubbles() {
+	//	Destroy (bubbles [0], lifetime); 
+		//bubbles.RemoveAt (0);
+	//} 
 
 }
