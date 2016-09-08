@@ -1,4 +1,4 @@
-﻿//========= Copyright 2015, Valve Corporation, All rights reserved. ===========
+﻿//======= Copyright (c) Valve Corporation, All rights reserved. ===============
 //
 // Purpose: Simple two bone ik solver.
 //
@@ -17,7 +17,6 @@ public class SteamVR_IK : MonoBehaviour
 	[HideInInspector]
 	public Transform startXform, jointXform, endXform;
 
-	//Called every frame after all Update functions have been called 
 	void LateUpdate()
 	{
 		const float epsilon = 0.001f;
@@ -70,7 +69,6 @@ public class SteamVR_IK : MonoBehaviour
 			jointXform.parent = startXform;
 		}
 
-		//COMMENTED OUT
 		jointXform.position = jointPosition;
 		jointXform.LookAt(end, preUp);
 		joint.parent = jointXform;
@@ -84,10 +82,8 @@ public class SteamVR_IK : MonoBehaviour
 		endXform.position = endPosition;
 		end.parent = endXform;
 
-		//COMMENTED OUT 
 		startXform.LookAt(result, up);
-		//THE EVIL LINE 
-		//jointXform.LookAt(targetPosition, up);
+		jointXform.LookAt(targetPosition, up);
 		endXform.rotation = targetRotation;
 
 		start.parent = startParent;

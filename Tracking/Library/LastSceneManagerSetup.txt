@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/pitdemo.unity
+- path: Assets/Mirror_090416_657_BOTH_ARMS_IK_LH_orphan.unity
   isLoaded: 1
   isActive: 1
