@@ -89,6 +89,7 @@ The pit demo simulates walking over a bottomless plank on nothing more than a pl
 *Rigging a skeleton in Maya: https://www.youtube.com/watch?v=gUPbbhnUXhY
 Hope? https://www.youtube.com/watch?v=bls91XlQHSY, https://www.youtube.com/watch?v=KYY7qo0z5h8, https://www.youtube.com/watch?v=A12gtS4oOgo
 *Was able to remove the upper arm rotation with the help of this link (http://serrarens.nl/passervr/inverse-kinematics-for-arms-in-unity-freeindie/) 
+Line to prevent twisting is line 91 in SteamIK: jointXform.LookAt(targetPosition, up);
 
 
 
